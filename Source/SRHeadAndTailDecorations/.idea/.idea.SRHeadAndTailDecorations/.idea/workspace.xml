@@ -71,11 +71,11 @@
       <option value="$PROJECT_DIR$/Patch/ApparelGraphicRecordGetterPatch.cs" />
       <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Head_Decoration.xml" />
       <option value="$PROJECT_DIR$/../../Defs/ENT_WorkTable.xml" />
-      <option value="$PROJECT_DIR$/../../Defs/Misc/ApparelLayerDefs/ENT_ApparelLayerDefs.xml" />
       <option value="$PROJECT_DIR$/../../Defs/ThingCategoryDefs/ENT_ThingCategories.xml" />
       <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Tail_Decoration.xml" />
       <option value="$PROJECT_DIR$/../../About/About.xml" />
       <option value="$PROJECT_DIR$/../../About/Manifest.xml" />
+      <option value="$PROJECT_DIR$/../../Defs/Misc/ApparelLayerDefs/ENT_ApparelLayerDefs.xml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nmjApXAxqrodkKMlM4fEreexH1" />
@@ -124,7 +124,7 @@
       <workItem from="1612002027468" duration="2029000" />
       <workItem from="1612004269293" duration="10158000" />
       <workItem from="1612014589232" duration="2053000" />
-      <workItem from="1612016732472" duration="1377000" />
+      <workItem from="1612016732472" duration="1693000" />
     </task>
     <servers />
   </component>
