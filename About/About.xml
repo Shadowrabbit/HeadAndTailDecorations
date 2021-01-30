@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <packageId>SR.HeadAndTailDecorations</packageId>
+    <name>Head and tail decorations</name>
+    <author>金兔子拉面</author>
+    <supportedVersions>
+        <li>1.2</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+    </loadAfter>
+    <description>
+        头部装饰与尾部装饰
+    </description>
+</ModMetaData>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- ****************************************************************** -->
+<!--       /\ /|       @file       ENT_ThingCategories.xml              -->
+<!--       \ V/        @brief      物体类别定义                          -->
+<!--       | "")       @author     Shadowrabbit, yingtu0401@gmail.com   -->
+<!--       /  |                                                         -->
+<!--      /  \\        @Modified   2021/1/30                            -->
+<!--    *(__\_\        @Copyright  Copyright (c) 2021, Shadowrabbit     -->
+<!-- *****************************************************************  -->
+<Defs>
+    <!--头部装饰类别-->
+    <ThingCategoryDef>
+        <defName>AFUCategoryHeadDecoration</defName>
+        <label>头部装饰</label>
+        <parent>Headgear</parent>
+    </ThingCategoryDef>
+    <!--尾部装饰类别-->
+    <ThingCategoryDef><!--自定义储存分类，尾巴-->
+        <defName>AFUCategoriesTailDecoration</defName>
+        <label>尾部装饰</label>
+        <parent>Headgear</parent>
+    </ThingCategoryDef>
+</Defs>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--服装基类-->
+    <ThingDef Name="AFU_ENTApparelNoQualityBase" Abstract="True">
+        <thingClass>Apparel</thingClass>
+        <category>Item</category>
+        <selectable>True</selectable>
+        <pathCost>14</pathCost>
+        <useHitPoints>True</useHitPoints>
+        <techLevel>Medieval</techLevel>
+        <graphicData>
+            <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+        </graphicData>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <DeteriorationRate>2</DeteriorationRate>
+            <Beauty>-1</Beauty>
+        </statBases>
+        <altitudeLayer>Item</altitudeLayer>
+        <alwaysHaulable>True</alwaysHaulable>
+        <tickerType>Never</tickerType>
+        <burnableByRecipe>true</burnableByRecipe>
+        <smeltable>true</smeltable>
+        <comps>
+            <li Class="CompProperties_Forbiddable"/>
+            <li>
+                <compClass>CompColorable</compClass>
+            </li>
+        </comps>
+    </ThingDef>
+    <!--可制作服装基类-->
+    <ThingDef Name="AFU_ENTApparelMakeableBase" ParentName="AFU_ENTApparelNoQualityBase" Abstract="True">
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill><!--手工技能-->
+            <effectWorking>Tailor</effectWorking><!--裁缝工作-->
+            <soundWorking>Recipe_Tailor</soundWorking>
+            <skillRequirements>
+                <Crafting>5</Crafting><!--5级手工-->
+            </skillRequirements>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite><!--科技-->
+            <recipeUsers>
+                <li>HandTailoringBench</li><!--AFU_TableENT-->
+            </recipeUsers>
+            <!--<useIngredientsForColor>false</useIngredientsForColor>使用材料颜色-->
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <defaultIngredientFilter>
+                <categories>
+                    <li>Root</li>
+                </categories>
+                <disallowedThingDefs>
+                    <li>Gold</li>
+                    <li>Silver</li>
+                    <li>Plasteel</li>
+                    <li>Jade</li>
+                    <li>Uranium</li>
+                </disallowedThingDefs>
+            </defaultIngredientFilter>
+        </recipeMaker>
+    </ThingDef>
+    <!--头部饰品基类-->
+    <ThingDef Name="AFU_ENTHeadDecorationMakeableBase" ParentName="AFU_ENTApparelMakeableBase" Abstract="True">
+        <!--储存区分类-->
+        <thingCategories>
+            <li>AFUCategoryHeadDecoration</li>
+        </thingCategories>
+    </ThingDef>
+    <!--尾部饰品基类-->
+    <ThingDef Name="AFU_ENTTailDecorationMakeableBase" ParentName="AFU_ENTApparelMakeableBase" Abstract="True">
+        <!--储存区分类-->
+        <thingCategories>
+            <li>AFUCategoriesTailDecoration</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>
