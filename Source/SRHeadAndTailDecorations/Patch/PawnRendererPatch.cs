@@ -91,7 +91,7 @@ namespace SR.HeadAndTailDecorations
                     Vector3 vector3_3 = quaternion * __instance.BaseHeadOffsetAt(headFacing);
                     Material mat1 =
                         __instance.graphics.HeadMatAt_NewTemp(headFacing, bodyDrawType, headStump, portrait);
-                    if ((UnityEngine.Object) mat1 != (UnityEngine.Object) null)
+                    if (mat1 != null)
                         GenDraw.DrawMeshNowOrLater(MeshPool.humanlikeHeadSet.MeshAt(headFacing), vector3_2 + vector3_3,
                             quaternion, mat1, portrait);
                     Vector3 loc1 = rootLoc + vector3_3;
@@ -105,6 +105,7 @@ namespace SR.HeadAndTailDecorations
                             if (
                                 apparelGraphics[index].sourceApparel.def.apparel.LastLayer ==
                                 RimWorld.ApparelLayerDefOf.Overhead
+                                //帽子绘制的时候把头部装饰也绘制一下
                                 || apparelGraphics[index].sourceApparel.def.apparel.LastLayer ==
                                 ApparelLayerDefOf.AFUHeadDecoration
                             )

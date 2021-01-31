@@ -12,7 +12,7 @@
     <ApparelLayerDef>
         <defName>AFUHeadDecoration</defName>
         <label>head</label>
-        <drawOrder>99999</drawOrder> <!--头盔400-->
+        <drawOrder>401</drawOrder> <!--头盔400-->
     </ApparelLayerDef>
     <!--尾部装饰层定义-->
     <ApparelLayerDef>

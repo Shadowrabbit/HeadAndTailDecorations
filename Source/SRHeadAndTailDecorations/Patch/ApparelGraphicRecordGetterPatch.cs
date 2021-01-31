@@ -1,6 +1,6 @@
 ﻿// ******************************************************************
 //       /\ /|       @file       ApparelGraphicRecordGetterPatch.cs
-//       \ V/        @brief      ApparelGraphicRecordGetter补丁
+//       \ V/        @brief      服装图形记录获取补丁
 //       | "")       @author     Shadowrabbit, yingtu0401@gmail.com
 //       /  |                    
 //      /  \\        @Modified   2021-01-30 21:06:58

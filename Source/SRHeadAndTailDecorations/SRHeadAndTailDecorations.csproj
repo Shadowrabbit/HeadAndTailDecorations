@@ -56,6 +56,7 @@
     <ItemGroup>
         <Compile Include="Def\ApparelLayerDefOf.cs" />
         <Compile Include="Patch\ApparelGraphicRecordGetterPatch.cs" />
+        <Compile Include="Patch\ApparelLayerDefPatch.cs" />
         <Compile Include="Patch\PatchMain.cs" />
         <Compile Include="Patch\PawnGraphicSetPatch.cs" />
         <Compile Include="Patch\PawnRendererPatch.cs" />

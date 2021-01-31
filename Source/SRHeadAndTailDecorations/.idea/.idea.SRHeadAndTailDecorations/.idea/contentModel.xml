@@ -10,6 +10,7 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="Patch" t="Include">
         <e p="ApparelGraphicRecordGetterPatch.cs" t="Include" />
+        <e p="ApparelLayerDefPatch.cs" t="Include" />
         <e p="PatchMain.cs" t="Include" />
         <e p="PawnGraphicSetPatch.cs" t="Include" />
         <e p="PawnRendererPatch.cs" t="Include" />
