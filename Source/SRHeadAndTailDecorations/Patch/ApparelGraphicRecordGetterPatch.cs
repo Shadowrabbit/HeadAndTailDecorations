@@ -9,7 +9,6 @@
 
 using RimWorld;
 using HarmonyLib;
-using UnityEngine;
 using Verse;
 
 namespace SR.HeadAndTailDecorations

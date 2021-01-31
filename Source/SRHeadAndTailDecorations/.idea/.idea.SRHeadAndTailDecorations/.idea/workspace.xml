@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0c71265d-b475-4237-ba5f-86c5a9ae92b9" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../Defs/Misc/ApparelLayerDefs/ENT_ApparelLayerDefs.xml" afterDir="false" />
@@ -17,6 +20,8 @@
       <change afterPath="$PROJECT_DIR$/Def/ApparelLayerDefOf.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Patch/ApparelGraphicRecordGetterPatch.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Patch/PatchMain.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patch/PawnGraphicSetPatch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patch/PawnRendererPatch.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../About/About.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../About/About.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../About/Manifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../About/Manifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../About/PublishedFileId.txt" beforeDir="false" />
@@ -41,41 +46,56 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/ae/320ecc42/ThingDefOf.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/32/90e52a21/AltitudeLayer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/01/6e3f088c/DamageFlasher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/fd/7f026c83/Graphic_Multi.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/f8/14710d08/DefOfHelper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/55/6318ba6b/Graphic_Terrain.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/1a/1eb46a14/ApparelProperties.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/ba/b1ed1949/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/de/86cb0731/ApparelLayerDefOf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5E1DFB68-6EB3-4507-8A58-8DF96401AFCC/bc/4048c1e3/Graphics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/28/e02f30ff/Graphic_Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/86/1d42404b/PawnRenderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/19/66b92d3e/GenDraw.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/e2/32666e8c/Apparel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/aa/206908a6/Pawn_ApparelTracker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/07/b6af6449/ShieldBelt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/ae/320ecc42/ThingDefOf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/55/6318ba6b/Graphic_Terrain.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/20181E2D-5520-4880-A56A-9120EF04A53D/ae/f9b20ef8/Traverse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/ba/b523c00d/PawnGraphicSet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/50/26b5bf0e/PawnHeadOverlays.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/5E1DFB68-6EB3-4507-8A58-8DF96401AFCC/ad/01b0cfad/UnityEngine.CoreModule.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/28/e02f30ff/Graphic_Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5E1DFB68-6EB3-4507-8A58-8DF96401AFCC/07/bfaa740c/Material.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/cc/daba3fee/ApparelGraphicRecordGetter.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/e2/32666e8c/Apparel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/63/e7a0095d/Pawn.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/87/d8a09e2f/ApparelLayerDef.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/07/b6af6449/ShieldBelt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/1d/24b0fb80/FloatMenuMakerMap.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/4a/07e8d063/StatDisplayOrder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/00/7d6df599/GraphicDatabaseHeadRecords.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/../../Defs/ENT_Belt.xml" />
       <option value="$PROJECT_DIR$/../../Defs/ThingCategoryDefs/ThingCategories.xml" />
       <option value="$PROJECT_DIR$/../../Defs/ENT_Headgear.xml" />
-      <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Various.xml" />
       <option value="$PROJECT_DIR$/PatchMain.cs" />
       <option value="$PROJECT_DIR$/ApparelGraphicRecordGetterPatch.cs" />
       <option value="$PROJECT_DIR$/Patch/PatchMain.cs" />
       <option value="$PROJECT_DIR$/Def/AppareLayerDefOf.cs" />
       <option value="$PROJECT_DIR$/Def/ApparelLayerDefOf.cs" />
-      <option value="$PROJECT_DIR$/Patch/ApparelGraphicRecordGetterPatch.cs" />
-      <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Head_Decoration.xml" />
       <option value="$PROJECT_DIR$/../../Defs/ENT_WorkTable.xml" />
       <option value="$PROJECT_DIR$/../../Defs/ThingCategoryDefs/ENT_ThingCategories.xml" />
       <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Tail_Decoration.xml" />
       <option value="$PROJECT_DIR$/../../About/About.xml" />
       <option value="$PROJECT_DIR$/../../About/Manifest.xml" />
+      <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/cc/daba3fee/ApparelGraphicRecordGetter.cs" />
       <option value="$PROJECT_DIR$/../../Defs/Misc/ApparelLayerDefs/ENT_ApparelLayerDefs.xml" />
+      <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Various.xml" />
+      <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Head_Decoration.xml" />
+      <option value="$PROJECT_DIR$/Patch/ApparelGraphicRecordGetterPatch.cs" />
+      <option value="$PROJECT_DIR$/Patch/PawnGraphicSetPatch.cs" />
+      <option value="$PROJECT_DIR$/Patch/PawnRendererPatch.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nmjApXAxqrodkKMlM4fEreexH1" />
@@ -124,7 +144,9 @@
       <workItem from="1612002027468" duration="2029000" />
       <workItem from="1612004269293" duration="10158000" />
       <workItem from="1612014589232" duration="2053000" />
-      <workItem from="1612016732472" duration="1693000" />
+      <workItem from="1612016732472" duration="2567000" />
+      <workItem from="1612022180068" duration="1713000" />
+      <workItem from="1612063932010" duration="15229000" />
     </task>
     <servers />
   </component>

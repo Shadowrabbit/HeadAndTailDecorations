@@ -12,12 +12,12 @@
     <ApparelLayerDef>
         <defName>AFUHeadDecoration</defName>
         <label>head</label>
-        <drawOrder>399</drawOrder> <!--原版400-->
+        <drawOrder>99999</drawOrder> <!--头盔400-->
     </ApparelLayerDef>
     <!--尾部装饰层定义-->
     <ApparelLayerDef>
         <defName>AFUTailDecoration</defName>
         <label>tail</label>
-        <drawOrder>299</drawOrder><!--原版300-->
+        <drawOrder>-1</drawOrder><!--衬衫0-->
     </ApparelLayerDef>
 </Defs>

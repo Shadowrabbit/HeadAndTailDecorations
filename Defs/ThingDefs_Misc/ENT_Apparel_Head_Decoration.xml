@@ -467,7 +467,7 @@
                 <li>UpperHead</li>
             </bodyPartGroups>
             <wornGraphicPath>Apparel/RabbitearsA</wornGraphicPath>
-            <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace><!--作为面具-->
+            <hatRenderedFrontOfFace>false</hatRenderedFrontOfFace><!--作为面具-->
             <layers><!--穿戴层-->
                 <li>AFUHeadDecoration</li>
             </layers>
