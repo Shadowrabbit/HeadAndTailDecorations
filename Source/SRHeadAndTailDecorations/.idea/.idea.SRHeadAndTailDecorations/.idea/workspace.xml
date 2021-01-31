@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c71265d-b475-4237-ba5f-86c5a9ae92b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Patch/ApparelLayerDefPatch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../About/About.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../About/About.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assemblies/SRHeadAndTailDecorations.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assemblies/SRHeadAndTailDecorations.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Defs/Misc/ApparelLayerDefs/ENT_ApparelLayerDefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Defs/Misc/ApparelLayerDefs/ENT_ApparelLayerDefs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SRHeadAndTailDecorations/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SRHeadAndTailDecorations/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SRHeadAndTailDecorations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SRHeadAndTailDecorations/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patch/ApparelGraphicRecordGetterPatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patch/ApparelGraphicRecordGetterPatch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patch/PawnRendererPatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patch/PawnRendererPatch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRHeadAndTailDecorations.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SRHeadAndTailDecorations.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/SRHeadAndTailDecorations.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/SRHeadAndTailDecorations.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/SRHeadAndTailDecorations.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/SRHeadAndTailDecorations.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/SRHeadAndTailDecorations.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/SRHeadAndTailDecorations.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/SRHeadAndTailDecorations.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/SRHeadAndTailDecorations.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/SRHeadAndTailDecorations.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/SRHeadAndTailDecorations.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Tail_Decoration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Tail_Decoration.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,8 +80,8 @@
       <option value="$USER_HOME$/Desktop/2206714635/Defs/ThingDefs_Misc/Apparel_Packs.xml" />
       <option value="$PROJECT_DIR$/Patch/ApparelGraphicRecordGetterPatch.cs" />
       <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Various.xml" />
-      <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Tail_Decoration.xml" />
       <option value="$PROJECT_DIR$/Patch/ApparelLayerDefPatch.cs" />
+      <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Tail_Decoration.xml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nmjApXAxqrodkKMlM4fEreexH1" />
@@ -147,6 +134,7 @@
       <workItem from="1612022180068" duration="1713000" />
       <workItem from="1612063932010" duration="15229000" />
       <workItem from="1612082520871" duration="4821000" />
+      <workItem from="1612087417435" duration="219000" />
     </task>
     <servers />
   </component>

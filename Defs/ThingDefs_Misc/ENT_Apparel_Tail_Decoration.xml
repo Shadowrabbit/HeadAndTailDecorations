@@ -33,6 +33,10 @@
         <!--服装-->
         <apparel>
             <wornGraphicPath>Apparel/CattailA</wornGraphicPath>
+            <!--这个变量目前并没有什么卵用-->
+            <wornGraphicData>
+                <renderUtilityAsPack>true</renderUtilityAsPack>
+            </wornGraphicData>
             <careIfWornByCorpse>false</careIfWornByCorpse><!--小人是否介意穿死人的装备-->
             <careIfDamaged>false</careIfDamaged><!--小人是否介意损坏-->
             <wearPerDay>0</wearPerDay>
