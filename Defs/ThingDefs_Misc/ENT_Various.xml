@@ -38,11 +38,11 @@
             <effectWorking>Tailor</effectWorking><!--裁缝工作-->
             <soundWorking>Recipe_Tailor</soundWorking>
             <skillRequirements>
-                <Crafting>5</Crafting><!--5级手工-->
+                <!--<Crafting>5</Crafting>5级手工-->
             </skillRequirements>
             <researchPrerequisite>ComplexClothing</researchPrerequisite><!--科技-->
             <recipeUsers>
-                <li>HandTailoringBench</li><!--AFU_TableENT-->
+                <li>AFU_TableENT</li>
             </recipeUsers>
             <!--<useIngredientsForColor>false</useIngredientsForColor>使用材料颜色-->
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>

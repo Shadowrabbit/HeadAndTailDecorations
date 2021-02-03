@@ -1,0 +1,2 @@
+此路径下的空贴图是为了适配CharacterEditor的Mod
+CharacterEditor把此Mod的装备层级判定为身体，需要对应的贴图存在才可以通过它的检测方法

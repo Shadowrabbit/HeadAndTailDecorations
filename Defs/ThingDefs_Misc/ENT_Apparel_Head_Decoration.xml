@@ -11,7 +11,6 @@
     <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
         <defName>AFUENT_CatEarsA</defName>
         <label>圆猫耳</label>
-        <description>猫耳A</description>
         <graphicData>
             <texPath>Apparel/CatearsA</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -53,8 +52,7 @@
     </ThingDef>
     <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
         <defName>AFUENT_CatEarsB</defName>
-        <label>三角猫耳</label>
-        <description>猫耳B</description>
+        <label>尖猫耳</label>
         <graphicData>
             <texPath>Apparel/CatearsB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -97,7 +95,6 @@
     <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
         <defName>AFUENT_CatEarsC</defName>
         <label>扇形猫耳</label>
-        <description>猫耳C</description>
         <graphicData>
             <texPath>Apparel/CatearsC</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -140,7 +137,6 @@
     <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
         <defName>AFUENT_CatEarsD</defName>
         <label>耳钉猫耳</label>
-        <description>猫耳D</description>
         <graphicData>
             <texPath>Apparel/CatearsD</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -183,7 +179,6 @@
     <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
         <defName>AFUENT_FoxEarsA</defName>
         <label>翘立狐耳</label>
-        <description>狐耳A</description>
         <graphicData>
             <texPath>Apparel/FoxearsA</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -235,7 +230,6 @@
     <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
         <defName>AFUENT_FoxEarsB</defName>
         <label>下垂狐耳</label>
-        <description>狐耳B</description>
         <graphicData>
             <texPath>Apparel/FoxearsB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -287,7 +281,6 @@
     <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
         <defName>AFUENT_FoxEarsC</defName>
         <label>短毛狐耳</label>
-        <description>狐耳C</description>
         <graphicData>
             <texPath>Apparel/FoxearsC</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -339,7 +332,6 @@
     <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
         <defName>AFUENT_FoxEarsD</defName>
         <label>左歪狐耳</label>
-        <description>狐耳D</description>
         <graphicData>
             <texPath>Apparel/FoxearsD</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -391,7 +383,6 @@
     <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
         <defName>AFUENT_FoxEarsE</defName>
         <label>右歪狐耳</label>
-        <description>狐耳E</description>
         <graphicData>
             <texPath>Apparel/FoxearsE</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -443,7 +434,6 @@
     <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
         <defName>AFUENT_RabbitEarsA</defName>
         <label>直立小兔耳</label>
-        <description>兔耳B</description>
         <graphicData>
             <texPath>Apparel/RabbitearsA</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -486,7 +476,6 @@
     <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
         <defName>AFUENT_RabbitEarsB</defName>
         <label>弯折小兔耳</label>
-        <description>兔耳B</description>
         <graphicData>
             <texPath>Apparel/RabbitearsB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -526,10 +515,261 @@
             </options>
         </colorGenerator>
     </ThingDef>
+  <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
+    <defName>AFUENT_RabbitEarsC</defName>
+    <label>长毛兔耳</label>
+    <graphicData>
+      <texPath>Apparel/RabbitearsC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.9, 0.9)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costList><!--固定材料花费-->
+      <Cloth>10</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.5</EquipDelay><!--穿衣时间-->
+    </statBases>
+    <apparel>
+      <bodyPartGroups><!--身体组-->
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/RabbitearsC</wornGraphicPath>
+	  <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace><!--作为面具-->
+      <layers><!--穿戴层-->
+         <li>AFUHeadDecoration</li>
+      </layers>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li><!--白-->
+          <only>(1,1,1,1)</only>
+        </li>
+        <li><!--黑-->
+          <only>(0.36,0.36,0.36,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
+    <defName>AFUENT_RabbitEarsD</defName>
+    <label>短毛兔耳</label>
+    <graphicData>
+      <texPath>Apparel/RabbitearsD</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.9, 0.9)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costList><!--固定材料花费-->
+      <Cloth>10</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.5</EquipDelay><!--穿衣时间-->
+    </statBases>
+    <apparel>
+      <bodyPartGroups><!--身体组-->
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/RabbitearsD</wornGraphicPath>
+	  <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace><!--作为面具-->
+      <layers><!--穿戴层-->
+         <li>AFUHeadDecoration</li>
+      </layers>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li><!--白-->
+          <only>(1,1,1,1)</only>
+        </li>
+        <li><!--黑-->
+          <only>(0.36,0.36,0.36,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
+    <defName>AFUENT_DeerHornA</defName>
+    <label>大鹿角</label>
+    <graphicData>
+      <texPath>Apparel/DeerhornA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.9, 0.9)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costList><!--固定材料花费-->
+      <Cloth>10</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.5</EquipDelay><!--穿衣时间-->
+    </statBases>
+    <apparel>
+      <bodyPartGroups><!--身体组-->
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/DeerhornA</wornGraphicPath>
+	  <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace><!--作为面具-->
+      <layers><!--穿戴层-->
+         <li>AFUHeadDecoration</li>
+      </layers>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li><!--白-->
+          <only>(1,1,1,1)</only>
+        </li>
+        <li><!--黑-->
+          <only>(0.36,0.36,0.36,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
+    <defName>AFUENT_DeerHornB</defName>
+    <label>鹿耳大鹿角</label>
+    <graphicData>
+      <texPath>Apparel/DeerhornB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.9, 0.9)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costList><!--固定材料花费-->
+      <Cloth>10</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.5</EquipDelay><!--穿衣时间-->
+    </statBases>
+    <apparel>
+      <bodyPartGroups><!--身体组-->
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/DeerhornB</wornGraphicPath>
+	  <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace><!--作为面具-->
+      <layers><!--穿戴层-->
+         <li>AFUHeadDecoration</li>
+      </layers>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li><!--白-->
+          <only>(1,1,1,1)</only>
+        </li>
+        <li><!--黑-->
+          <only>(0.36,0.36,0.36,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
+    <defName>AFUENT_DeerHornC</defName>
+    <label>小鹿角</label>
+    <graphicData>
+      <texPath>Apparel/DeerhornC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.9, 0.9)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costList><!--固定材料花费-->
+      <Cloth>10</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.5</EquipDelay><!--穿衣时间-->
+    </statBases>
+    <apparel>
+      <bodyPartGroups><!--身体组-->
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/DeerhornC</wornGraphicPath>
+	  <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace><!--作为面具-->
+      <layers><!--穿戴层-->
+         <li>AFUHeadDecoration</li>
+      </layers>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li><!--白-->
+          <only>(1,1,1,1)</only>
+        </li>
+        <li><!--黑-->
+          <only>(0.36,0.36,0.36,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
+    <defName>AFUENT_DeerHornD</defName>
+    <label>鹿耳小鹿角</label>
+    <graphicData>
+      <texPath>Apparel/DeerhornD</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.9, 0.9)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costList><!--固定材料花费-->
+      <Cloth>10</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.5</EquipDelay><!--穿衣时间-->
+    </statBases>
+    <apparel>
+      <bodyPartGroups><!--身体组-->
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/DeerhornD</wornGraphicPath>
+	  <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace><!--作为面具-->
+      <layers><!--穿戴层-->
+         <li>AFUHeadDecoration</li>
+      </layers>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li><!--白-->
+          <only>(1,1,1,1)</only>
+        </li>
+        <li><!--黑-->
+          <only>(0.36,0.36,0.36,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
     <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
         <defName>AFUENT_DevilHornA</defName>
         <label>恶魔双角</label>
-        <description>角A</description>
         <graphicData>
             <texPath>Apparel/DevilhornA</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -572,7 +812,6 @@
     <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
         <defName>AFUENT_DevilHornB</defName>
         <label>恶魔独角</label>
-        <description>角B</description>
         <graphicData>
             <texPath>Apparel/DevilhornB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -615,7 +854,6 @@
     <ThingDef ParentName="AFU_ENTHeadDecorationMakeableBase">
         <defName>AFUENT_DevilHornC</defName>
         <label>尖刺角</label>
-        <description>角C</description>
         <graphicData>
             <texPath>Apparel/DevilhornC</texPath>
             <graphicClass>Graphic_Single</graphicClass>

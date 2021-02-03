@@ -12,7 +12,6 @@
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_CatTailA</defName>
         <label>条纹猫尾</label>
-        <description>猫尾A</description>
         <thingClass>Apparel</thingClass>
         <!--制作材料-->
         <costList>
@@ -51,7 +50,6 @@
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_CatTailB</defName>
         <label>纯色猫尾</label>
-        <description>猫尾B</description>
         <costList>
             <Cloth>10</Cloth>
         </costList>
@@ -83,7 +81,6 @@
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_DeerTailA</defName>
         <label>小鹿尾</label>
-        <description>鹿尾A</description>
         <costList>
             <Cloth>10</Cloth>
         </costList>
@@ -115,7 +112,6 @@
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_DevilTailA</defName>
         <label>尖角恶魔尾</label>
-        <description>恶魔尾A</description>
         <costList>
             <Steel>10</Steel>
         </costList>
@@ -147,7 +143,6 @@
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_DevilTailB</defName>
         <label>桃心恶魔尾</label>
-        <description>恶魔尾B</description>
         <costList>
             <Steel>10</Steel>
         </costList>
@@ -177,41 +172,8 @@
         </apparel>
     </ThingDef>
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
-        <defName>AFUENT_DevilTailC</defName>
-        <label>肥大恶魔尾</label>
-        <description>恶魔尾C</description>
-        <costList>
-            <Steel>10</Steel>
-        </costList>
-        <graphicData>
-            <texPath>Apparel/DeviltailC</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
-        </graphicData>
-        <statBases>
-            <WorkToMake>1000</WorkToMake>
-            <Mass>0.1</Mass>
-            <EquipDelay>0.5</EquipDelay>
-        </statBases>
-        <apparel>
-            <wornGraphicPath>Apparel/DeviltailC</wornGraphicPath>
-            <wornGraphicData>
-                <renderUtilityAsPack>true</renderUtilityAsPack>
-            </wornGraphicData>
-            <careIfDamaged>false</careIfDamaged>
-            <wearPerDay>0</wearPerDay>
-            <bodyPartGroups>
-                <li>Waist</li>
-            </bodyPartGroups>
-            <layers>
-                <li>AFUTailDecoration</li>
-            </layers>
-        </apparel>
-    </ThingDef>
-    <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_FoxTailA</defName>
-        <label>小狐狸尾</label>
-        <description>狐狸尾A</description>
+        <label>小狐尾</label>
         <costList>
             <Cloth>10</Cloth>
         </costList>
@@ -242,8 +204,7 @@
     </ThingDef>
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_FoxTailB</defName>
-        <label>长狐狸尾</label>
-        <description>狐狸尾B</description>
+        <label>长狐尾</label>
         <costList>
             <Cloth>10</Cloth>
         </costList>
@@ -274,8 +235,7 @@
     </ThingDef>
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_FoxTailC</defName>
-        <label>卷翘狐狸尾</label>
-        <description>狐狸尾C</description>
+        <label>卷翘狐尾</label>
         <costList>
             <Cloth>10</Cloth>
         </costList>
@@ -307,7 +267,6 @@
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_RabbitTailA</defName>
         <label>绒球兔尾</label>
-        <description>兔尾A</description>
         <costList>
             <Cloth>10</Cloth>
         </costList>
@@ -323,6 +282,99 @@
         </statBases>
         <apparel>
             <wornGraphicPath>Apparel/RabbittailA</wornGraphicPath>
+            <wornGraphicData>
+                <renderUtilityAsPack>true</renderUtilityAsPack>
+            </wornGraphicData>
+            <careIfDamaged>false</careIfDamaged>
+            <wearPerDay>0</wearPerDay>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+            <layers>
+                <li>AFUTailDecoration</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+    <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
+        <defName>AFUENT_LizardTailA</defName>
+        <label>光滑蜥尾</label>
+        <costList>
+            <Steel>10</Steel>
+        </costList>
+        <graphicData>
+            <texPath>Apparel/LizardtailA</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>0.1</Mass>
+            <EquipDelay>0.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Apparel/LizardtailA</wornGraphicPath>
+            <wornGraphicData>
+                <renderUtilityAsPack>true</renderUtilityAsPack>
+            </wornGraphicData>
+            <careIfDamaged>false</careIfDamaged>
+            <wearPerDay>0</wearPerDay>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+            <layers>
+                <li>AFUTailDecoration</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+    <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
+        <defName>AFUENT_LizardTailB</defName>
+        <label>刺脊蜥尾</label>
+        <costList>
+            <Steel>10</Steel>
+        </costList>
+        <graphicData>
+            <texPath>Apparel/LizardtailB</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>0.1</Mass>
+            <EquipDelay>0.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Apparel/LizardtailB</wornGraphicPath>
+            <wornGraphicData>
+                <renderUtilityAsPack>true</renderUtilityAsPack>
+            </wornGraphicData>
+            <careIfDamaged>false</careIfDamaged>
+            <wearPerDay>0</wearPerDay>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+            <layers>
+                <li>AFUTailDecoration</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+    <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
+        <defName>AFUENT_LizardTailC</defName>
+        <label>蟒纹蜥尾</label>
+        <costList>
+            <Steel>10</Steel>
+        </costList>
+        <graphicData>
+            <texPath>Apparel/LizardtailC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>0.1</Mass>
+            <EquipDelay>0.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Apparel/LizardtailC</wornGraphicPath>
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
             </wornGraphicData>

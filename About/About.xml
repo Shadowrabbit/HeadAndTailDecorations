@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <packageId>SR.HeadAndTailDecorations</packageId>
-    <name>Head and tail decorations</name>
+    <name>头部与尾部装饰</name>
     <author>金兔子拉面,Shadowrabbit</author>
     <supportedVersions>
         <li>1.2</li>
@@ -20,6 +20,6 @@
         <li>Ludeon.RimWorld.Royalty</li>
     </loadAfter>
     <description>
-        头部装饰与尾部装饰
+        新增32个人类可用的头部与尾部装饰和1个专用工作台。\n这些装饰位于独立装备层上，不会与其他常规装备抢占位置。\n它们没有任何实用属性，只有外观。
     </description>
 </ModMetaData>

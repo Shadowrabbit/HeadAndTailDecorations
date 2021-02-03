@@ -2,13 +2,13 @@
 <Defs>
   <ThingDef ParentName="BenchBase"><!--抄的手动裁缝台的-->
     <defName>AFU_TableENT</defName>
-    <label>ENT tailor bench</label>
-    <description>描述</description>
+    <label>头尾装饰制造台</label>
+    <description>用于制作头部饰品和尾部饰品的工作台，小巧轻便，无需通电。</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Things/Building/Production/TableENT</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(1,1)</drawSize>
+      <drawSize>(2,2)</drawSize>
       <shaderType>CutoutComplex</shaderType>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
@@ -25,7 +25,7 @@
       <li>Woody</li>
     </stuffCategories>
     <altitudeLayer>Building</altitudeLayer>
-    <fillPercent>0.5</fillPercent><!--？-->
+    <fillPercent>0.5</fillPercent><!--填充比例-->
     <useHitPoints>True</useHitPoints><!--？-->
     <statBases>
       <WorkToBuild>1000</WorkToBuild>
@@ -37,10 +37,10 @@
     <designationCategory>Production</designationCategory><!--类别-->
     <passability>PassThroughOnly</passability><!--通过方式-->
     <pathCost>50</pathCost>
-    <hasInteractionCell>True</hasInteractionCell><!--？-->
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset><!--？-->
+    <hasInteractionCell>True</hasInteractionCell><!--是否有交互格子-->
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset><!--交互格子偏移量-->
     <surfaceType>Item</surfaceType><!--？-->
-    <inspectorTabs><!--？-->
+    <inspectorTabs><!--检索标签-->
       <li>ITab_Bills</li>
     </inspectorTabs>
     <building>

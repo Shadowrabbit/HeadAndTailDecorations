@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HeadAndTailDecorations\Source\SRHeadAndTailDecorations" t="IncludeRecursive">
+    <e p="C:\Users\wangyue07\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\wangyue07\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_SRHeadAndTailDecorations.464200454.00" t="ExcludeRecursive" />
+    <e p="E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HeadAndTailDecorations\Source\SRHeadAndTailDecorations" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />
       <e p="Def" t="Include">
         <e p="ApparelLayerDefOf.cs" t="Include" />
@@ -21,7 +23,5 @@
       <e p="SRHeadAndTailDecorations.csproj" t="IncludeRecursive" />
       <e p="SRHeadAndTailDecorations.sln" t="IncludeFlat" />
     </e>
-    <e p="C:\Users\ausu\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\ausu\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_SRHeadAndTailDecorations.37645956.00" t="ExcludeRecursive" />
   </component>
 </project>

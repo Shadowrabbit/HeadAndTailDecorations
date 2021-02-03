@@ -5,7 +5,376 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c71265d-b475-4237-ba5f-86c5a9ae92b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Defs/WorkGiverDefs/ENT_WorkGivers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Languages/English/DefInjected/ApparelLayerDef/ENT_ApparelLayerDefs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Languages/English/DefInjected/RecipeDef/Recipes_Add_Make.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Languages/English/DefInjected/ThingCategoryDef/ENT_ThingCategories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Languages/English/DefInjected/ThingDef/ENT_Apparel_Head_Decoration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Languages/English/DefInjected/ThingDef/ENT_Apparel_Tail_Decoration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Languages/English/DefInjected/ThingDef/ENT_Production.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Languages/English/DefInjected/WorkGiverDef/ENT_WorkGivers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Fat_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Fat_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Fat_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Fat_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Fat_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Fat_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Female_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Female_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Female_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Female_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Female_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Female_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Hulk_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Hulk_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Hulk_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Hulk_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Hulk_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Hulk_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Male_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Male_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Male_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Male_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Male_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Male_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Thin_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Thin_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Thin_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Thin_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Thin_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA_Thin_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornA_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornA_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornA_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornB_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornB_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornB_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornC_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornC_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornC_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornD_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornD_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornD_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornD_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornD_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeerhornD_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/LizardtailA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/LizardtailA_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/LizardtailA_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/LizardtailA_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/LizardtailB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/LizardtailB_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/LizardtailB_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/LizardtailB_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/LizardtailC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/LizardtailC_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/LizardtailC_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/LizardtailC_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsC_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsC_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsC_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsC_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsC_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsC_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsD_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsD_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsD_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsD_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsD_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsD_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsA_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsA_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsA_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsA_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsA_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsA_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsB_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsB_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsB_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsB_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsB_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsB_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsC_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsC_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsC_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsC_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsC_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsC_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsD_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsD_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CatearsD_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CattailA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CattailA_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CattailA_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CattailA_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CattailB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CattailB_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CattailB_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/CattailB_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornA_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornA_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornA_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornB_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornB_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornB_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornC_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornC_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornC_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornD_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornD_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornD_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornD_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornD_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeerhornD_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeertailA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeertailA_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeertailA_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeertailA_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DevilhornA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DevilhornA_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DevilhornA_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DevilhornA_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DevilhornB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DevilhornB_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DevilhornB_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DevilhornB_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DevilhornC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DevilhornC_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DevilhornC_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DevilhornC_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeviltailA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeviltailA_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeviltailA_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeviltailA_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeviltailB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeviltailB_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeviltailB_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/DeviltailB_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsA_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsA_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsA_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsA_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsA_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsA_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsB_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsB_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsB_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsB_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsB_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsB_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsC_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsC_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsC_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsC_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsC_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsC_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsD_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsD_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsD_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsD_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsD_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsD_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsE_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsE_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsE_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsE_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsE_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxearsE_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxtailA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxtailA_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxtailA_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxtailA_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxtailB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxtailB_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxtailB_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxtailB_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxtailC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxtailC_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxtailC_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/FoxtailC_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/LizardtailA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/LizardtailA_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/LizardtailA_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/LizardtailA_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/LizardtailB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/LizardtailB_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/LizardtailB_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/LizardtailB_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/LizardtailC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/LizardtailC_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/LizardtailC_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/LizardtailC_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsA_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsA_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsA_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsB_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsB_notth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsB_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsC_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsC_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsC_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsC_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsC_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsC_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsD_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsD_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsD_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsD_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsD_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbitearsD_southm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbittailA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbittailA_east.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbittailA_north.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/ApparelCopy/RabbittailA_south.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Copy是旧版，Apparel里猫耳A是新版五体型贴图.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Things/Building/Production/TableENT_eastm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Things/Building/Production/TableENT_northm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Textures/Things/Building/Production/TableENT_southm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../About/About.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../About/About.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../About/Manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Defs/Misc/ApparelLayerDefs/ENT_ApparelLayerDefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Defs/Misc/ApparelLayerDefs/ENT_ApparelLayerDefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Defs/ThingCategoryDefs/ENT_ThingCategories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Defs/ThingCategoryDefs/ENT_ThingCategories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Defs/ThingDefs_Buildings/ENT_Production.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Defs/ThingDefs_Buildings/ENT_Production.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Head_Decoration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Head_Decoration.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Tail_Decoration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Tail_Decoration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Various.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Various.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SRHeadAndTailDecorations/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SRHeadAndTailDecorations/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsB.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsB.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsB_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsB_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsB_eastm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsB_eastm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsB_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsB_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsB_northm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsB_northm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsB_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsB_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsB_southm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsB_southm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsC.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsC_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsC_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsC_eastm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsC_eastm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsC_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsC_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsC_northm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsC_northm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsC_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsC_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsC_southm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsC_southm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsD.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsD.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsD_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsD_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsD_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsD_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CatearsD_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CatearsD_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CattailA.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CattailA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CattailA_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CattailA_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CattailA_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CattailA_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CattailA_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CattailA_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CattailB.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CattailB.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CattailB_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CattailB_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CattailB_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CattailB_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/CattailB_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/CattailB_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DeertailA.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeertailA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DeertailA_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeertailA_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DeertailA_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeertailA_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DeertailA_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeertailA_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornA.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornA_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornA_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornA_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornA_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornA_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornA_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornB.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornB.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornB_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornB_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornB_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornB_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornB_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornB_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornC.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornC_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornC_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornC_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornC_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornC_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DevilhornC_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailA.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailA_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailA_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailA_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailA_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailA_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailA_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailB.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailB.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailB_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailB_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailB_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailB_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailB_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/DeviltailB_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsA.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsA_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsA_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsA_eastm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsA_eastm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsA_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsA_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsA_northm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsA_northm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsA_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsA_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsA_southm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsA_southm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsB.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsB.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsB_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsB_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsB_eastm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsB_eastm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsB_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsB_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsB_northm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsB_northm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsB_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsB_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsB_southm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsB_southm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsC.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsC_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsC_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsC_eastm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsC_eastm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsC_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsC_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsC_northm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsC_northm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsC_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsC_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsC_southm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsC_southm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsD.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsD.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsD_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsD_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsD_eastm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsD_eastm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsD_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsD_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsD_northm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsD_northm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsD_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsD_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsD_southm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsD_southm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsE.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsE.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsE_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsE_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsE_eastm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsE_eastm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsE_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsE_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsE_northm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsE_northm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsE_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsE_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsE_southm.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxearsE_southm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailA.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailA_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailA_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailA_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailA_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailA_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailA_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailB.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailB.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailB_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailB_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailB_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailB_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailB_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailB_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailC.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailC_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailC_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailC_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailC_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailC_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/FoxtailC_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsA.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsA_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsA_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsA_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsA_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsA_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsA_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsB.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsB.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsB_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsB_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsB_notth.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsB_notth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsB_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbitearsB_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/RabbittailA.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbittailA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/RabbittailA_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbittailA_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/RabbittailA_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbittailA_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Apparel/RabbittailA_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Apparel/RabbittailA_south.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Things/Building/Production/TableENT_east.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Things/Building/Production/TableENT_east.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Things/Building/Production/TableENT_north.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Things/Building/Production/TableENT_north.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Things/Building/Production/TableENT_south.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Things/Building/Production/TableENT_south.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,41 +391,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/32/90e52a21/AltitudeLayer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/01/6e3f088c/DamageFlasher.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/b4/f0927bf3/ApparelUtility.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/fd/7f026c83/Graphic_Multi.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/f8/14710d08/DefOfHelper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/ec/028d0c5f/WITab_Caravan_Gear.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/1a/1eb46a14/ApparelProperties.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/ba/b1ed1949/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/de/86cb0731/ApparelLayerDefOf.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/9d/4cbd2ec1/AlertsReadout.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5E1DFB68-6EB3-4507-8A58-8DF96401AFCC/bc/4048c1e3/Graphics.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/28/e02f30ff/Graphic_Single.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/51/d5141685/WornGraphicData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/86/1d42404b/PawnRenderer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/19/66b92d3e/GenDraw.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/e2/32666e8c/Apparel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/aa/206908a6/Pawn_ApparelTracker.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/07/b6af6449/ShieldBelt.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/ae/320ecc42/ThingDefOf.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/55/6318ba6b/Graphic_Terrain.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/20181E2D-5520-4880-A56A-9120EF04A53D/ae/f9b20ef8/Traverse.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/ba/b523c00d/PawnGraphicSet.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/50/26b5bf0e/PawnHeadOverlays.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/5E1DFB68-6EB3-4507-8A58-8DF96401AFCC/ad/01b0cfad/UnityEngine.CoreModule.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5E1DFB68-6EB3-4507-8A58-8DF96401AFCC/07/bfaa740c/Material.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/cc/daba3fee/ApparelGraphicRecordGetter.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/20181E2D-5520-4880-A56A-9120EF04A53D/e8/00a851f3/HarmonyPatch.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/63/e7a0095d/Pawn.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/87/d8a09e2f/ApparelLayerDef.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/1d/24b0fb80/FloatMenuMakerMap.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/4a/07e8d063/StatDisplayOrder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/00/7d6df599/GraphicDatabaseHeadRecords.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/4c/51b3fd55/SpecificApparelRequirement.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -82,6 +416,7 @@
       <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Various.xml" />
       <option value="$PROJECT_DIR$/Patch/ApparelLayerDefPatch.cs" />
       <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Tail_Decoration.xml" />
+      <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Buildings/ENT_Production.xml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nmjApXAxqrodkKMlM4fEreexH1" />
@@ -135,6 +470,7 @@
       <workItem from="1612063932010" duration="15229000" />
       <workItem from="1612082520871" duration="4821000" />
       <workItem from="1612087417435" duration="219000" />
+      <workItem from="1612326720942" duration="329000" />
     </task>
     <servers />
   </component>
