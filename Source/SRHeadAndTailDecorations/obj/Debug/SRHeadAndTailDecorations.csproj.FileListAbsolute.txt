@@ -1,6 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HeadAndTailDecorations\Source\SRHeadAndTailDecorations\obj\Debug\SRHeadAndTailDecorations.csprojAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HeadAndTailDecorations\Source\SRHeadAndTailDecorations\obj\Debug\SRHeadAndTailDecorations.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HeadAndTailDecorations\Source\SRHeadAndTailDecorations\bin\Debug\SRHeadAndTailDecorations.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HeadAndTailDecorations\Source\SRHeadAndTailDecorations\bin\Debug\SRHeadAndTailDecorations.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HeadAndTailDecorations\Source\SRHeadAndTailDecorations\obj\Debug\SRHeadAndTailDecorations.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HeadAndTailDecorations\Source\SRHeadAndTailDecorations\obj\Debug\SRHeadAndTailDecorations.pdb

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c71265d-b475-4237-ba5f-86c5a9ae92b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Assemblies/SRHeadAndTailDecorations.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Defs/Misc/ApparelLayerDefs/ENT_ApparelLayerDefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Defs/ThingCategoryDefs/ENT_ThingCategories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Defs/ThingDefs_Buildings/ENT_Production.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Defs/ThingDefs_Misc/ENT_Apparel_Head_Decoration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Defs/ThingDefs_Misc/ENT_Apparel_Tail_Decoration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Defs/ThingDefs_Misc/ENT_Various.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Defs/WorkGiverDefs/ENT_WorkGivers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/Def/ApparelLayerDefOf.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/Patch/ApparelGraphicRecordGetterPatch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/Patch/ApparelLayerDefPatch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/Patch/PatchMain.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/Patch/PawnGraphicSetPatch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/Patch/PawnRendererPatch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/SRHeadAndTailDecorations.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/SRHeadAndTailDecorations.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/SRHeadAndTailDecorations.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/bin/Debug/SRHeadAndTailDecorations.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/bin/Debug/SRHeadAndTailDecorations.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/obj/Debug/SRHeadAndTailDecorations.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/obj/Debug/SRHeadAndTailDecorations.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/obj/Debug/SRHeadAndTailDecorations.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/obj/Debug/SRHeadAndTailDecorations.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/obj/Debug/SRHeadAndTailDecorations.pdb" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45C23E2F-91E7-4DD1-942F-E2DF07B786B7/79/05475a61/ApparelLayerDefOf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45C23E2F-91E7-4DD1-942F-E2DF07B786B7/fd/864f5b3d/PawnGraphicSet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45C23E2F-91E7-4DD1-942F-E2DF07B786B7/1b/595b3fd7/ApparelGraphicRecordGetter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45C23E2F-91E7-4DD1-942F-E2DF07B786B7/0a/44b521d7/PawnRenderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45C23E2F-91E7-4DD1-942F-E2DF07B786B7/a2/4e849b1c/Pawn.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/../../Defs/ENT_Belt.xml" />
+      <option value="$PROJECT_DIR$/../../Defs/ThingCategoryDefs/ThingCategories.xml" />
+      <option value="$PROJECT_DIR$/../../Defs/ENT_Headgear.xml" />
+      <option value="$PROJECT_DIR$/PatchMain.cs" />
+      <option value="$PROJECT_DIR$/ApparelGraphicRecordGetterPatch.cs" />
+      <option value="$PROJECT_DIR$/Def/AppareLayerDefOf.cs" />
+      <option value="$PROJECT_DIR$/../../Defs/ENT_WorkTable.xml" />
+      <option value="$PROJECT_DIR$/../../Defs/ThingCategoryDefs/ENT_ThingCategories.xml" />
+      <option value="$PROJECT_DIR$/../../About/Manifest.xml" />
+      <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D72310B4-D8F6-4D25-AEE5-02792B58549F/cc/daba3fee/ApparelGraphicRecordGetter.cs" />
+      <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Head_Decoration.xml" />
+      <option value="$PROJECT_DIR$/../../About/About.xml" />
+      <option value="$PROJECT_DIR$/../../Defs/Misc/ApparelLayerDefs/ENT_ApparelLayerDefs.xml" />
+      <option value="$USER_HOME$/Desktop/2206714635/Defs/ThingDefs_Misc/Apparel_Packs.xml" />
+      <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Various.xml" />
+      <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Tail_Decoration.xml" />
+      <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Buildings/ENT_Production.xml" />
+      <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C36F9493-C984-4DDA-A7FB-5C788416098F/31/5311f599/ApparelLayerDef.cs" />
+      <option value="$PROJECT_DIR$/Patch/ApparelGraphicRecordGetterPatch.cs" />
+      <option value="$PROJECT_DIR$/Patch/ApparelLayerDefPatch.cs" />
+      <option value="$PROJECT_DIR$/Patch/PatchMain.cs" />
+      <option value="$PROJECT_DIR$/Patch/PawnGraphicSetPatch.cs" />
+      <option value="$PROJECT_DIR$/Def/ApparelLayerDefOf.cs" />
+      <option value="$PROJECT_DIR$/Patch/PawnRendererPatch.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1nmjApXAxqrodkKMlM4fEreexH1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c71265d-b475-4237-ba5f-86c5a9ae92b9" name="Default Changelist" comment="" />
+      <created>1612002019839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612002019839</updated>
+      <workItem from="1612002027468" duration="2029000" />
+      <workItem from="1612004269293" duration="10158000" />
+      <workItem from="1612014589232" duration="2053000" />
+      <workItem from="1612016732472" duration="2567000" />
+      <workItem from="1612022180068" duration="1713000" />
+      <workItem from="1612063932010" duration="15229000" />
+      <workItem from="1612082520871" duration="4821000" />
+      <workItem from="1612087417435" duration="219000" />
+      <workItem from="1612326720942" duration="329000" />
+      <workItem from="1625640794732" duration="1717000" />
+      <workItem from="1625650602764" duration="156000" />
+      <workItem from="1625650848244" duration="4053000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

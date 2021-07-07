@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="BenchBase"><!--抄的手动裁缝台的-->
+    <defName>AFU_TableENT</defName>
+    <label>头尾装饰制造台</label>
+    <description>用于制作头部饰品和尾部饰品的工作台，小巧轻便，无需通电。</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/TableENT</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costStuffCount>50</costStuffCount><!--花费材料-->
+    <stuffCategories><!--材料种类-->
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent><!--填充比例-->
+    <useHitPoints>True</useHitPoints><!--？-->
+    <statBases>
+      <WorkToBuild>1000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor><!--工作台工作速度因子-->
+    </statBases>
+    <size>(1,1)</size><!--大小-->
+    <designationCategory>Production</designationCategory><!--类别-->
+    <passability>PassThroughOnly</passability><!--通过方式-->
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell><!--是否有交互格子-->
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset><!--交互格子偏移量-->
+    <surfaceType>Item</surfaceType><!--？-->
+    <inspectorTabs><!--检索标签-->
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities><!--可连接设备-->
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <placeWorkers><!--？-->
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites><!--前置研究-->
+      <li>ComplexClothing</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>
