@@ -11,7 +11,7 @@
     <!--尾部装饰-->
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_CatTailA</defName>
-        <label>条纹猫尾</label>
+        <label>cat tail(striped)</label>
         <thingClass>Apparel</thingClass>
         <!--制作材料-->
         <costList>
@@ -19,7 +19,7 @@
         </costList>
         <!--渲染数据-->
         <graphicData>
-            <texPath>Apparel/CattailA</texPath>
+            <texPath>Apparel/ENTApparel/CattailA</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -31,10 +31,31 @@
         </statBases>
         <!--服装-->
         <apparel>
-            <wornGraphicPath>Apparel/CattailA</wornGraphicPath>
+            <wornGraphicPath>Apparel/ENTApparel/CattailA</wornGraphicPath>
             <!--这个变量目前并没有什么卵用-->
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,-0.15)</offset> </male>
+						<female><offset>(0,-0.1)</offset> </female>
+						<thin>  <offset>(0,-0.1)</offset> </thin>
+						<hulk>  <offset>(0,-0.25)</offset> </hulk>
+						<fat>   <offset>(0,-0.25)</offset> </fat>
+					</north>
+					<east>
+						<male>  <offset>(0.05,0)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0.05,0)</offset> </thin>
+						<hulk>  <offset>(-0.1,-0.2)</offset> </hulk>
+						<fat>   <offset>(-0.15,-0.1)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(-0.05,0)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(-0.05,0)</offset> </thin>
+						<hulk>  <offset>(0.1,-0.2)</offset> </hulk>
+						<fat>   <offset>(0.15,-0.1)</offset> </fat>
+					</west>
             </wornGraphicData>
             <careIfWornByCorpse>false</careIfWornByCorpse><!--小人是否介意穿死人的装备-->
             <careIfDamaged>false</careIfDamaged><!--小人是否介意损坏-->
@@ -46,15 +67,47 @@
                 <li>AFUTailDecoration</li>
             </layers>
         </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黄-->
+					 <weight>10</weight>
+                     <only>(0.76,0.58,0.37,1)</only>
+                </li>
+                <li><!--亮棕-->
+					 <weight>10</weight>
+                     <only>(0.72,0.5,0.34,1)</only>
+                </li>
+                <li><!--灰棕-->
+					 <weight>10</weight>
+                     <only>(0.65,0.55,0.5,1)</only>
+                </li>
+                <li><!--粉棕-->
+					 <weight>10</weight>
+                     <only>(0.71,0.52,0.48,1)</only>
+                </li>
+            </options>
+        </colorGenerator>
     </ThingDef>
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_CatTailB</defName>
-        <label>纯色猫尾</label>
+        <label>cat tail(pure color)</label>
         <costList>
             <Cloth>10</Cloth>
         </costList>
         <graphicData>
-            <texPath>Apparel/CattailB</texPath>
+            <texPath>Apparel/ENTApparel/CattailB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -64,9 +117,30 @@
             <EquipDelay>0.5</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Apparel/CattailB</wornGraphicPath>
+            <wornGraphicPath>Apparel/ENTApparel/CattailB</wornGraphicPath>
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,-0.15)</offset> </male>
+						<female><offset>(0,-0.1)</offset> </female>
+						<thin>  <offset>(0,-0.1)</offset> </thin>
+						<hulk>  <offset>(0,-0.25)</offset> </hulk>
+						<fat>   <offset>(0,-0.25)</offset> </fat>
+					</north>
+					<east>
+						<male>  <offset>(0.05,0)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0.05,0)</offset> </thin>
+						<hulk>  <offset>(-0.1,-0.2)</offset> </hulk>
+						<fat>   <offset>(-0.15,-0.1)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(-0.05,0)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(-0.05,0)</offset> </thin>
+						<hulk>  <offset>(0.1,-0.2)</offset> </hulk>
+						<fat>   <offset>(0.15,-0.1)</offset> </fat>
+					</west>
             </wornGraphicData>
             <careIfDamaged>false</careIfDamaged>
             <wearPerDay>0</wearPerDay>
@@ -77,15 +151,47 @@
                 <li>AFUTailDecoration</li>
             </layers>
         </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黄-->
+					 <weight>10</weight>
+                     <only>(0.76,0.58,0.37,1)</only>
+                </li>
+                <li><!--亮棕-->
+					 <weight>10</weight>
+                     <only>(0.72,0.5,0.34,1)</only>
+                </li>
+                <li><!--灰棕-->
+					 <weight>10</weight>
+                     <only>(0.65,0.55,0.5,1)</only>
+                </li>
+                <li><!--粉棕-->
+					 <weight>10</weight>
+                     <only>(0.71,0.52,0.48,1)</only>
+                </li>
+            </options>
+        </colorGenerator>
     </ThingDef>
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_DeerTailA</defName>
-        <label>小鹿尾</label>
+        <label>deer tail</label>
         <costList>
             <Cloth>10</Cloth>
         </costList>
         <graphicData>
-            <texPath>Apparel/DeertailA</texPath>
+            <texPath>Apparel/ENTApparel/DeertailA</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -95,9 +201,30 @@
             <EquipDelay>0.5</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Apparel/DeertailA</wornGraphicPath>
+            <wornGraphicPath>Apparel/ENTApparel/DeertailA</wornGraphicPath>
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,0)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0,0.05)</offset> </thin>
+						<hulk>  <offset>(0,-0.1)</offset> </hulk>
+						<fat>   <offset>(0,-0.1)</offset> </fat>
+					</north>
+					<east>
+						<male>  <offset>(0.12,0.05)</offset> </male>
+						<female><offset>(0.08,0)</offset> </female>
+						<thin>  <offset>(0.13,0.05)</offset> </thin>
+						<hulk>  <offset>(-0.04,-0.1)</offset> </hulk>
+						<fat>   <offset>(-0.13,0)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(-0.12,0.05)</offset> </male>
+						<female><offset>(-0.08,0)</offset> </female>
+						<thin>  <offset>(-0.13,0.05)</offset> </thin>
+						<hulk>  <offset>(0.04,-0.1)</offset> </hulk>
+						<fat>   <offset>(0.13,0)</offset> </fat>
+					</west>
             </wornGraphicData>
             <careIfDamaged>false</careIfDamaged>
             <wearPerDay>0</wearPerDay>
@@ -108,15 +235,47 @@
                 <li>AFUTailDecoration</li>
             </layers>
         </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰红-->
+					 <weight>10</weight>
+                     <only>(0.58,0.36,0.36,1)</only>
+                </li>
+                <li><!--灰黄-->
+					 <weight>10</weight>
+                     <only>(0.71,0.62,0.48,1)</only>
+                </li>
+                <li><!--灰绿-->
+					 <weight>10</weight>
+                     <only>(0.41,0.62,0.32,1)</only>
+                </li>
+                <li><!--灰紫-->
+					 <weight>10</weight>
+                     <only>(0.52,0.48,0.54,1)</only>
+                </li>
+            </options>
+    </colorGenerator>
     </ThingDef>
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_DevilTailA</defName>
-        <label>尖角恶魔尾</label>
+        <label>devil tail(pointed)</label>
         <costList>
             <Steel>10</Steel>
         </costList>
         <graphicData>
-            <texPath>Apparel/DeviltailA</texPath>
+            <texPath>Apparel/ENTApparel/DeviltailA</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -126,9 +285,30 @@
             <EquipDelay>0.5</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Apparel/DeviltailA</wornGraphicPath>
+            <wornGraphicPath>Apparel/ENTApparel/DeviltailA</wornGraphicPath>
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,0)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0,0)</offset> </thin>
+						<hulk>  <offset>(0,-0.2)</offset> </hulk>
+						<fat>   <offset>(0,-0.2)</offset> </fat>
+					</north>
+					<east>
+						<male>  <offset>(0.08,0.05)</offset> </male>
+						<female><offset>(0.02,0.05)</offset> </female>
+						<thin>  <offset>(0.08,0.05)</offset> </thin>
+						<hulk>  <offset>(-0.1,-0.11)</offset> </hulk>
+						<fat>   <offset>(-0.19,0)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(-0.08,0.05)</offset> </male>
+						<female><offset>(-0.02,0.05)</offset> </female>
+						<thin>  <offset>(-0.08,0.05)</offset> </thin>
+						<hulk>  <offset>(0.1,-0.11)</offset> </hulk>
+						<fat>   <offset>(0.19,0)</offset> </fat>
+					</west>
             </wornGraphicData>
             <careIfDamaged>false</careIfDamaged>
             <wearPerDay>0</wearPerDay>
@@ -139,15 +319,47 @@
                 <li>AFUTailDecoration</li>
             </layers>
         </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黑-->
+					 <weight>10</weight>
+                     <only>(0.24,0.24,0.26,1)</only>
+                </li>
+                <li><!--古铜-->
+					 <weight>10</weight>
+                     <only>(0.6,0.46,0.41,1)</only>
+                </li>
+                <li><!--深红-->
+					 <weight>10</weight>
+                     <only>(0.59,0.26,0.27,1)</only>
+                </li>
+                <li><!--玫红-->
+					 <weight>10</weight>
+                     <only>(0.59,0.27,0.3,1)</only>
+                </li>
+            </options>
+        </colorGenerator>
     </ThingDef>
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_DevilTailB</defName>
-        <label>桃心恶魔尾</label>
+        <label>devil tail(heart)</label>
         <costList>
             <Steel>10</Steel>
         </costList>
         <graphicData>
-            <texPath>Apparel/DeviltailB</texPath>
+            <texPath>Apparel/ENTApparel/DeviltailB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -157,9 +369,30 @@
             <EquipDelay>0.5</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Apparel/DeviltailB</wornGraphicPath>
+            <wornGraphicPath>Apparel/ENTApparel/DeviltailB</wornGraphicPath>
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,0)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0,0)</offset> </thin>
+						<hulk>  <offset>(0,-0.2)</offset> </hulk>
+						<fat>   <offset>(0,-0.2)</offset> </fat>
+					</north>
+					<east>
+						<male>  <offset>(0.08,0.05)</offset> </male>
+						<female><offset>(0.02,0.05)</offset> </female>
+						<thin>  <offset>(0.08,0.05)</offset> </thin>
+						<hulk>  <offset>(-0.1,-0.11)</offset> </hulk>
+						<fat>   <offset>(-0.19,0)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(-0.08,0.05)</offset> </male>
+						<female><offset>(-0.02,0.05)</offset> </female>
+						<thin>  <offset>(-0.08,0.05)</offset> </thin>
+						<hulk>  <offset>(0.1,-0.11)</offset> </hulk>
+						<fat>   <offset>(0.19,0)</offset> </fat>
+					</west>
             </wornGraphicData>
             <careIfDamaged>false</careIfDamaged>
             <wearPerDay>0</wearPerDay>
@@ -170,15 +403,47 @@
                 <li>AFUTailDecoration</li>
             </layers>
         </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黑-->
+					 <weight>10</weight>
+                     <only>(0.24,0.24,0.26,1)</only>
+                </li>
+                <li><!--古铜-->
+					 <weight>10</weight>
+                     <only>(0.6,0.46,0.41,1)</only>
+                </li>
+                <li><!--深红-->
+					 <weight>10</weight>
+                     <only>(0.59,0.26,0.27,1)</only>
+                </li>
+                <li><!--玫红-->
+					 <weight>10</weight>
+                     <only>(0.59,0.27,0.3,1)</only>
+                </li>
+            </options>
+        </colorGenerator>
     </ThingDef>
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_FoxTailA</defName>
-        <label>小狐尾</label>
+        <label>fox tail(short)</label>
         <costList>
             <Cloth>10</Cloth>
         </costList>
         <graphicData>
-            <texPath>Apparel/FoxtailA</texPath>
+            <texPath>Apparel/ENTApparel/FoxtailA</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -188,9 +453,30 @@
             <EquipDelay>0.5</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Apparel/FoxtailA</wornGraphicPath>
+            <wornGraphicPath>Apparel/ENTApparel/FoxtailA</wornGraphicPath>
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,0)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0,0)</offset> </thin>
+						<hulk>  <offset>(0,-0.2)</offset> </hulk>
+						<fat>   <offset>(0,-0.2)</offset> </fat>
+					</north>
+					<east>
+						<male>  <offset>(0.1,0.05)</offset> </male>
+						<female><offset>(0.05,0.01)</offset> </female>
+						<thin>  <offset>(0.1,0.01)</offset> </thin>
+						<hulk>  <offset>(-0.1,-0.15)</offset> </hulk>
+						<fat>   <offset>(-0.19,0)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(-0.1,0.05)</offset> </male>
+						<female><offset>(-0.05,0.01)</offset> </female>
+						<thin>  <offset>(-0.1,0.01)</offset> </thin>
+						<hulk>  <offset>(0.1,-0.15)</offset> </hulk>
+						<fat>   <offset>(0.19,0)</offset> </fat>
+					</west>
             </wornGraphicData>
             <careIfDamaged>false</careIfDamaged>
             <wearPerDay>0</wearPerDay>
@@ -201,15 +487,47 @@
                 <li>AFUTailDecoration</li>
             </layers>
         </apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黄-->
+					 <weight>10</weight>
+                     <only>(0.76,0.58,0.37,1)</only>
+                </li>
+                <li><!--亮棕-->
+					 <weight>10</weight>
+                     <only>(0.72,0.5,0.34,1)</only>
+                </li>
+                <li><!--灰棕-->
+					 <weight>10</weight>
+                     <only>(0.65,0.55,0.5,1)</only>
+                </li>
+                <li><!--粉棕-->
+					 <weight>10</weight>
+                     <only>(0.71,0.52,0.48,1)</only>
+                </li>
+            </options>
+		</colorGenerator>
     </ThingDef>
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_FoxTailB</defName>
-        <label>长狐尾</label>
+        <label>fox tail(long)</label>
         <costList>
             <Cloth>10</Cloth>
         </costList>
         <graphicData>
-            <texPath>Apparel/FoxtailB</texPath>
+            <texPath>Apparel/ENTApparel/FoxtailB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -219,9 +537,30 @@
             <EquipDelay>0.5</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Apparel/FoxtailB</wornGraphicPath>
+            <wornGraphicPath>Apparel/ENTApparel/FoxtailB</wornGraphicPath>
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,-0.25)</offset> </male>
+						<female><offset>(0,-0.2)</offset> </female>
+						<thin>  <offset>(0,-0.15)</offset> </thin>
+						<hulk>  <offset>(0,-0.35)</offset> </hulk>
+						<fat>   <offset>(0,-0.32)</offset> </fat>
+					</north>
+					<east>
+						<male>  <offset>(-0.13,0.02)</offset> </male>
+						<female><offset>(-0.18,0)</offset> </female>
+						<thin>  <offset>(-0.13,0.02)</offset> </thin>
+						<hulk>  <offset>(-0.23,-0.06)</offset> </hulk>
+						<fat>   <offset>(-0.37,0)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(0.13,0.02)</offset> </male>
+						<female><offset>(0.18,0)</offset> </female>
+						<thin>  <offset>(0.13,0.02)</offset> </thin>
+						<hulk>  <offset>(0.23,-0.06)</offset> </hulk>
+						<fat>   <offset>(0.37,0)</offset> </fat>
+					</west>
             </wornGraphicData>
             <careIfDamaged>false</careIfDamaged>
             <wearPerDay>0</wearPerDay>
@@ -232,15 +571,47 @@
                 <li>AFUTailDecoration</li>
             </layers>
         </apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黄-->
+					 <weight>10</weight>
+                     <only>(0.76,0.58,0.37,1)</only>
+                </li>
+                <li><!--亮棕-->
+					 <weight>10</weight>
+                     <only>(0.72,0.5,0.34,1)</only>
+                </li>
+                <li><!--灰棕-->
+					 <weight>10</weight>
+                     <only>(0.65,0.55,0.5,1)</only>
+                </li>
+                <li><!--粉棕-->
+					 <weight>10</weight>
+                     <only>(0.71,0.52,0.48,1)</only>
+                </li>
+            </options>
+		</colorGenerator>
     </ThingDef>
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_FoxTailC</defName>
-        <label>卷翘狐尾</label>
+        <label>fox tail(curled)</label>
         <costList>
             <Cloth>10</Cloth>
         </costList>
         <graphicData>
-            <texPath>Apparel/FoxtailC</texPath>
+            <texPath>Apparel/ENTApparel/FoxtailC</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -250,9 +621,37 @@
             <EquipDelay>0.5</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Apparel/FoxtailC</wornGraphicPath>
+            <wornGraphicPath>Apparel/ENTApparel/FoxtailC</wornGraphicPath>
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,0.15)</offset> </male>
+						<female><offset>(0,0.1)</offset> </female>
+						<thin>  <offset>(0,0.2)</offset> </thin>
+						<hulk>  <offset>(0,-0.05)</offset> </hulk>
+						<fat>   <offset>(0,0)</offset> </fat>
+					</north>
+					<south>
+						<male>  <offset>(0,0.15)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0,0.15)</offset> </thin>
+						<hulk>  <offset>(0,0)</offset> </hulk>
+						<fat>   <offset>(0,0)</offset> </fat>
+					</south>
+					<east>
+						<male>  <offset>(-0.29,0.03)</offset> </male>
+						<female><offset>(-0.33,0.05)</offset> </female>
+						<thin>  <offset>(-0.28,0.1)</offset> </thin>
+						<hulk>  <offset>(-0.42,-0.05)</offset> </hulk>
+						<fat>   <offset>(-0.5,0)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(0.29,0.03)</offset> </male>
+						<female><offset>(0.33,0.05)</offset> </female>
+						<thin>  <offset>(0.28,0.1)</offset> </thin>
+						<hulk>  <offset>(0.42,-0.05)</offset> </hulk>
+						<fat>   <offset>(0.5,0)</offset> </fat>
+					</west>
             </wornGraphicData>
             <careIfDamaged>false</careIfDamaged>
             <wearPerDay>0</wearPerDay>
@@ -263,15 +662,411 @@
                 <li>AFUTailDecoration</li>
             </layers>
         </apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黄-->
+					 <weight>10</weight>
+                     <only>(0.76,0.58,0.37,1)</only>
+                </li>
+                <li><!--亮棕-->
+					 <weight>10</weight>
+                     <only>(0.72,0.5,0.34,1)</only>
+                </li>
+                <li><!--灰棕-->
+					 <weight>10</weight>
+                     <only>(0.65,0.55,0.5,1)</only>
+                </li>
+                <li><!--粉棕-->
+					 <weight>10</weight>
+                     <only>(0.71,0.52,0.48,1)</only>
+                </li>
+            </options>
+		</colorGenerator>
+    </ThingDef>
+    <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
+        <defName>AFUENT_FoxTailE</defName>
+        <label>fox tail(three tail)</label>
+        <costList>
+            <Cloth>10</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Apparel/ENTApparel/FoxtailE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>0.1</Mass>
+            <EquipDelay>0.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Apparel/ENTApparel/FoxtailE</wornGraphicPath>
+            <wornGraphicData>
+                <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,-0.02)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0,0.01)</offset> </thin>
+						<hulk>  <offset>(0,-0.18)</offset> </hulk>
+						<fat>   <offset>(0,-0.15)</offset> </fat>
+					</north>
+					<south>
+						<male>  <offset>(0,0)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0,0.03)</offset> </thin>
+						<hulk>  <offset>(0,0)</offset> </hulk>
+						<fat>   <offset>(0,0)</offset> </fat>
+					</south>
+					<east>
+						<male>  <offset>(0.03,0.04)</offset> </male>
+						<female><offset>(0.01,0.03)</offset> </female>
+						<thin>  <offset>(0.05,0.04)</offset> </thin>
+						<hulk>  <offset>(-0.15,-0.18)</offset> </hulk>
+						<fat>   <offset>(-0.2,-0.13)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(-0.03,0.04)</offset> </male>
+						<female><offset>(-0.01,0.03)</offset> </female>
+						<thin>  <offset>(-0.05,0.04)</offset> </thin>
+						<hulk>  <offset>(0.15,-0.18)</offset> </hulk>
+						<fat>   <offset>(0.2,-0.13)</offset> </fat>
+					</west>
+            </wornGraphicData>
+            <careIfDamaged>false</careIfDamaged>
+            <wearPerDay>0</wearPerDay>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+            <layers>
+                <li>AFUTailDecoration</li>
+            </layers>
+        </apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黄-->
+					 <weight>10</weight>
+                     <only>(0.76,0.58,0.37,1)</only>
+                </li>
+                <li><!--亮棕-->
+					 <weight>10</weight>
+                     <only>(0.72,0.5,0.34,1)</only>
+                </li>
+                <li><!--灰棕-->
+					 <weight>10</weight>
+                     <only>(0.65,0.55,0.5,1)</only>
+                </li>
+                <li><!--粉棕-->
+					 <weight>10</weight>
+                     <only>(0.71,0.52,0.48,1)</only>
+                </li>
+            </options>
+		</colorGenerator>
+    </ThingDef>
+    <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
+        <defName>AFUENT_FoxTailG</defName>
+        <label>fox tail(five tail)</label>
+        <costList>
+            <Cloth>10</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Apparel/ENTApparel/FoxtailG</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>0.1</Mass>
+            <EquipDelay>0.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Apparel/ENTApparel/FoxtailG</wornGraphicPath>
+            <wornGraphicData>
+                <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,-0.1)</offset> </male>
+						<female><offset>(0,0.01)</offset> </female>
+						<thin>  <offset>(0,0.01)</offset> </thin>
+						<hulk>  <offset>(0,-0.2)</offset> </hulk>
+						<fat>   <offset>(0,-0.2)</offset> </fat>
+					</north>
+					<south>
+						<male>  <offset>(0,0.1)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0,0)</offset> </thin>
+						<hulk>  <offset>(0,0)</offset> </hulk>
+						<fat>   <offset>(0,0)</offset> </fat>
+					</south>
+					<east>
+						<male>  <offset>(0.05,0.05)</offset> </male>
+						<female><offset>(0.02,0.03)</offset> </female>
+						<thin>  <offset>(0.08,0.05)</offset> </thin>
+						<hulk>  <offset>(-0.1,-0.09)</offset> </hulk>
+						<fat>   <offset>(-0.2,-0.1)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(-0.05,0.05)</offset> </male>
+						<female><offset>(-0.02,0.03)</offset> </female>
+						<thin>  <offset>(-0.08,0.05)</offset> </thin>
+						<hulk>  <offset>(0.1,-0.09)</offset> </hulk>
+						<fat>   <offset>(0.2,-0.1)</offset> </fat>
+					</west>
+            </wornGraphicData>
+            <careIfDamaged>false</careIfDamaged>
+            <wearPerDay>0</wearPerDay>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+            <layers>
+                <li>AFUTailDecoration</li>
+            </layers>
+        </apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黄-->
+					 <weight>10</weight>
+                     <only>(0.76,0.58,0.37,1)</only>
+                </li>
+                <li><!--亮棕-->
+					 <weight>10</weight>
+                     <only>(0.72,0.5,0.34,1)</only>
+                </li>
+                <li><!--灰棕-->
+					 <weight>10</weight>
+                     <only>(0.65,0.55,0.5,1)</only>
+                </li>
+                <li><!--粉棕-->
+					 <weight>10</weight>
+                     <only>(0.71,0.52,0.48,1)</only>
+                </li>
+            </options>
+		</colorGenerator>
+    </ThingDef>
+    <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
+        <defName>AFUENT_FoxTailI</defName>
+        <label>fox tail(seven tail)</label>
+        <costList>
+            <Cloth>10</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Apparel/ENTApparel/FoxtailI</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>0.1</Mass>
+            <EquipDelay>0.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Apparel/ENTApparel/FoxtailI</wornGraphicPath>
+            <wornGraphicData>
+                <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,-0.05)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0,0)</offset> </thin>
+						<hulk>  <offset>(0,-0.2)</offset> </hulk>
+						<fat>   <offset>(0,-0.2)</offset> </fat>
+					</north>
+					<south>
+						<male>  <offset>(0,0.1)</offset> </male>
+						<female><offset>(0,0.1)</offset> </female>
+						<thin>  <offset>(0,0.1)</offset> </thin>
+						<hulk>  <offset>(0,0)</offset> </hulk>
+						<fat>   <offset>(0,0)</offset> </fat>
+					</south>
+					<east>
+						<male>  <offset>(-0.1,0.02)</offset> </male>
+						<female><offset>(-0.08,0.02)</offset> </female>
+						<thin>  <offset>(-0.08,0.02)</offset> </thin>
+						<hulk>  <offset>(-0.2,-0.11)</offset> </hulk>
+						<fat>   <offset>(-0.32,-0.1)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(0.1,0.02)</offset> </male>
+						<female><offset>(0.08,0.02)</offset> </female>
+						<thin>  <offset>(0.08,0.02)</offset> </thin>
+						<hulk>  <offset>(0.2,-0.11)</offset> </hulk>
+						<fat>   <offset>(0.32,-0.1)</offset> </fat>
+					</west>
+            </wornGraphicData>
+            <careIfDamaged>false</careIfDamaged>
+            <wearPerDay>0</wearPerDay>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+            <layers>
+                <li>AFUTailDecoration</li>
+            </layers>
+        </apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黄-->
+					 <weight>10</weight>
+                     <only>(0.76,0.58,0.37,1)</only>
+                </li>
+                <li><!--亮棕-->
+					 <weight>10</weight>
+                     <only>(0.72,0.5,0.34,1)</only>
+                </li>
+                <li><!--灰棕-->
+					 <weight>10</weight>
+                     <only>(0.65,0.55,0.5,1)</only>
+                </li>
+                <li><!--粉棕-->
+					 <weight>10</weight>
+                     <only>(0.71,0.52,0.48,1)</only>
+                </li>
+            </options>
+		</colorGenerator>
+    </ThingDef>
+    <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
+        <defName>AFUENT_FoxTailK</defName>
+        <label>fox tail(nine tail)</label>
+        <costList>
+            <Cloth>10</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Apparel/ENTApparel/FoxtailK</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>0.1</Mass>
+            <EquipDelay>0.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Apparel/ENTApparel/FoxtailK</wornGraphicPath>
+            <wornGraphicData>
+                <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,0)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0,0)</offset> </thin>
+						<hulk>  <offset>(0,-0.2)</offset> </hulk>
+						<fat>   <offset>(0,-0.15)</offset> </fat>
+					</north>
+					<south>
+						<male>  <offset>(0,0.05)</offset> </male>
+						<female><offset>(0,0.05)</offset> </female>
+						<thin>  <offset>(0,0.05)</offset> </thin>
+						<hulk>  <offset>(0,0)</offset> </hulk>
+						<fat>   <offset>(0,0)</offset> </fat>
+					</south>
+					<east>
+						<male>  <offset>(-0.2,0.04)</offset> </male>
+						<female><offset>(-0.21,0.01)</offset> </female>
+						<thin>  <offset>(-0.2,0.02)</offset> </thin>
+						<hulk>  <offset>(-0.35,-0.15)</offset> </hulk>
+						<fat>   <offset>(-0.45,-0.1)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(0.2,0.04)</offset> </male>
+						<female><offset>(0.21,0.01)</offset> </female>
+						<thin>  <offset>(0.2,0.02)</offset> </thin>
+						<hulk>  <offset>(0.35,-0.15)</offset> </hulk>
+						<fat>   <offset>(0.45,-0.1)</offset> </fat>
+					</west>
+            </wornGraphicData>
+            <careIfDamaged>false</careIfDamaged>
+            <wearPerDay>0</wearPerDay>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+            <layers>
+                <li>AFUTailDecoration</li>
+            </layers>
+        </apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黄-->
+					 <weight>10</weight>
+                     <only>(0.76,0.58,0.37,1)</only>
+                </li>
+                <li><!--亮棕-->
+					 <weight>10</weight>
+                     <only>(0.72,0.5,0.34,1)</only>
+                </li>
+                <li><!--灰棕-->
+					 <weight>10</weight>
+                     <only>(0.65,0.55,0.5,1)</only>
+                </li>
+                <li><!--粉棕-->
+					 <weight>10</weight>
+                     <only>(0.71,0.52,0.48,1)</only>
+                </li>
+            </options>
+		</colorGenerator>
     </ThingDef>
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_RabbitTailA</defName>
-        <label>绒球兔尾</label>
+        <label>rabbit tail</label>
         <costList>
             <Cloth>10</Cloth>
         </costList>
         <graphicData>
-            <texPath>Apparel/RabbittailA</texPath>
+            <texPath>Apparel/ENTApparel/RabbittailA</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -281,9 +1076,30 @@
             <EquipDelay>0.5</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Apparel/RabbittailA</wornGraphicPath>
+            <wornGraphicPath>Apparel/ENTApparel/RabbittailA</wornGraphicPath>
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,0)</offset> </male>
+						<female><offset>(0,0.1)</offset> </female>
+						<thin>  <offset>(0,0.1)</offset> </thin>
+						<hulk>  <offset>(0,-0.1)</offset> </hulk>
+						<fat>   <offset>(0,0)</offset> </fat>
+					</north>
+					<east>
+						<male>  <offset>(0.1,0.1)</offset> </male>
+						<female><offset>(0,0.1)</offset> </female>
+						<thin>  <offset>(0.08,0.15)</offset> </thin>
+						<hulk>  <offset>(-0.1,-0.1)</offset> </hulk>
+						<fat>   <offset>(-0.2,0)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(-0.1,0.1)</offset> </male>
+						<female><offset>(-0,0.1)</offset> </female>
+						<thin>  <offset>(-0.08,0.15)</offset> </thin>
+						<hulk>  <offset>(0.1,-0.1)</offset> </hulk>
+						<fat>   <offset>(0.2,0)</offset> </fat>
+					</west>
             </wornGraphicData>
             <careIfDamaged>false</careIfDamaged>
             <wearPerDay>0</wearPerDay>
@@ -294,15 +1110,47 @@
                 <li>AFUTailDecoration</li>
             </layers>
         </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黄-->
+					 <weight>10</weight>
+                     <only>(0.76,0.58,0.37,1)</only>
+                </li>
+                <li><!--亮棕-->
+					 <weight>10</weight>
+                     <only>(0.72,0.5,0.34,1)</only>
+                </li>
+                <li><!--灰棕-->
+					 <weight>10</weight>
+                     <only>(0.65,0.55,0.5,1)</only>
+                </li>
+                <li><!--粉棕-->
+					 <weight>10</weight>
+                     <only>(0.71,0.52,0.48,1)</only>
+                </li>
+            </options>
+        </colorGenerator>
     </ThingDef>
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_LizardTailA</defName>
-        <label>光滑蜥尾</label>
+        <label>lizard tail(smooth)</label>
         <costList>
             <Steel>10</Steel>
         </costList>
         <graphicData>
-            <texPath>Apparel/LizardtailA</texPath>
+            <texPath>Apparel/ENTApparel/LizardtailA</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -312,9 +1160,30 @@
             <EquipDelay>0.5</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Apparel/LizardtailA</wornGraphicPath>
+            <wornGraphicPath>Apparel/ENTApparel/LizardtailA</wornGraphicPath>
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,0)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0,0)</offset> </thin>
+						<hulk>  <offset>(0,-0.2)</offset> </hulk>
+						<fat>   <offset>(0,-0.1)</offset> </fat>
+					</north>
+					<east>
+						<male>  <offset>(0.05,0)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0.05,0)</offset> </thin>
+						<hulk>  <offset>(-0.18,-0.1)</offset> </hulk>
+						<fat>   <offset>(-0.2,0)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(-0.05,0)</offset> </male>
+						<female><offset>(-0,0)</offset> </female>
+						<thin>  <offset>(-0.05,0)</offset> </thin>
+						<hulk>  <offset>(0.18,-0.1)</offset> </hulk>
+						<fat>   <offset>(0.2,0)</offset> </fat>
+					</west>
             </wornGraphicData>
             <careIfDamaged>false</careIfDamaged>
             <wearPerDay>0</wearPerDay>
@@ -325,15 +1194,47 @@
                 <li>AFUTailDecoration</li>
             </layers>
         </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黑-->
+					 <weight>10</weight>
+                     <only>(0.24,0.24,0.26,1)</only>
+                </li>
+                <li><!--古铜-->
+					 <weight>10</weight>
+                     <only>(0.6,0.46,0.41,1)</only>
+                </li>
+                <li><!--深红-->
+					 <weight>10</weight>
+                     <only>(0.59,0.26,0.27,1)</only>
+                </li>
+                <li><!--玫红-->
+					 <weight>10</weight>
+                     <only>(0.59,0.27,0.3,1)</only>
+                </li>
+            </options>
+        </colorGenerator>
     </ThingDef>
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_LizardTailB</defName>
-        <label>刺脊蜥尾</label>
+        <label>lizard tail(spiked)</label>
         <costList>
             <Steel>10</Steel>
         </costList>
         <graphicData>
-            <texPath>Apparel/LizardtailB</texPath>
+            <texPath>Apparel/ENTApparel/LizardtailB</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -343,9 +1244,30 @@
             <EquipDelay>0.5</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Apparel/LizardtailB</wornGraphicPath>
+            <wornGraphicPath>Apparel/ENTApparel/LizardtailB</wornGraphicPath>
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,0)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0,0)</offset> </thin>
+						<hulk>  <offset>(0,-0.2)</offset> </hulk>
+						<fat>   <offset>(0,-0.1)</offset> </fat>
+					</north>
+					<east>
+						<male>  <offset>(-0.25,0)</offset> </male>
+						<female><offset>(-0.28,0)</offset> </female>
+						<thin>  <offset>(-0.24,0)</offset> </thin>
+						<hulk>  <offset>(-0.4,-0.2)</offset> </hulk>
+						<fat>   <offset>(-0.4,0)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(0.25,0)</offset> </male>
+						<female><offset>(0.28,0)</offset> </female>
+						<thin>  <offset>(0.24,0)</offset> </thin>
+						<hulk>  <offset>(0.4,-0.2)</offset> </hulk>
+						<fat>   <offset>(0.4,0)</offset> </fat>
+					</west>
             </wornGraphicData>
             <careIfDamaged>false</careIfDamaged>
             <wearPerDay>0</wearPerDay>
@@ -356,15 +1278,47 @@
                 <li>AFUTailDecoration</li>
             </layers>
         </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黑-->
+					 <weight>10</weight>
+                     <only>(0.24,0.24,0.26,1)</only>
+                </li>
+                <li><!--古铜-->
+					 <weight>10</weight>
+                     <only>(0.6,0.46,0.41,1)</only>
+                </li>
+                <li><!--深红-->
+					 <weight>10</weight>
+                     <only>(0.59,0.26,0.27,1)</only>
+                </li>
+                <li><!--玫红-->
+					 <weight>10</weight>
+                     <only>(0.59,0.27,0.3,1)</only>
+                </li>
+            </options>
+        </colorGenerator>
     </ThingDef>
     <ThingDef ParentName="AFU_ENTTailDecorationMakeableBase">
         <defName>AFUENT_LizardTailC</defName>
-        <label>蟒纹蜥尾</label>
+        <label>lizard tail(python pattern)</label>
         <costList>
             <Steel>10</Steel>
         </costList>
         <graphicData>
-            <texPath>Apparel/LizardtailC</texPath>
+            <texPath>Apparel/ENTApparel/LizardtailC</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -374,9 +1328,30 @@
             <EquipDelay>0.5</EquipDelay>
         </statBases>
         <apparel>
-            <wornGraphicPath>Apparel/LizardtailC</wornGraphicPath>
+            <wornGraphicPath>Apparel/ENTApparel/LizardtailC</wornGraphicPath>
             <wornGraphicData>
                 <renderUtilityAsPack>true</renderUtilityAsPack>
+					<north>
+						<male>  <offset>(0,0)</offset> </male>
+						<female><offset>(0,0)</offset> </female>
+						<thin>  <offset>(0,0)</offset> </thin>
+						<hulk>  <offset>(0,-0.2)</offset> </hulk>
+						<fat>   <offset>(0,-0.1)</offset> </fat>
+					</north>
+					<east>
+						<male>  <offset>(-0.25,0)</offset> </male>
+						<female><offset>(-0.28,0)</offset> </female>
+						<thin>  <offset>(-0.24,0)</offset> </thin>
+						<hulk>  <offset>(-0.4,-0.2)</offset> </hulk>
+						<fat>   <offset>(-0.4,0)</offset> </fat>
+					</east>
+					<west>
+						<male>  <offset>(0.25,0)</offset> </male>
+						<female><offset>(0.28,0)</offset> </female>
+						<thin>  <offset>(0.24,0)</offset> </thin>
+						<hulk>  <offset>(0.4,-0.2)</offset> </hulk>
+						<fat>   <offset>(0.4,0)</offset> </fat>
+					</west>
             </wornGraphicData>
             <careIfDamaged>false</careIfDamaged>
             <wearPerDay>0</wearPerDay>
@@ -387,5 +1362,37 @@
                 <li>AFUTailDecoration</li>
             </layers>
         </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li><!--白-->
+					 <weight>10</weight>
+                     <only>(1,1,1,1)</only>
+                </li>
+                <li><!--灰-->
+					 <weight>10</weight>
+                     <only>(0.63,0.62,0.65,1)</only>
+                </li>
+                <li><!--深灰-->
+					 <weight>10</weight>
+                     <only>(0.34,0.34,0.35,1)</only>
+                </li>
+                <li><!--灰黑-->
+					 <weight>10</weight>
+                     <only>(0.24,0.24,0.26,1)</only>
+                </li>
+                <li><!--古铜-->
+					 <weight>10</weight>
+                     <only>(0.6,0.46,0.41,1)</only>
+                </li>
+                <li><!--深红-->
+					 <weight>10</weight>
+                     <only>(0.59,0.26,0.27,1)</only>
+                </li>
+                <li><!--玫红-->
+					 <weight>10</weight>
+                     <only>(0.59,0.27,0.3,1)</only>
+                </li>
+            </options>
+        </colorGenerator>
     </ThingDef>
 </Defs>

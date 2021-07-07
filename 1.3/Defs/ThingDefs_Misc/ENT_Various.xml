@@ -44,7 +44,7 @@
             <recipeUsers>
                 <li>AFU_TableENT</li>
             </recipeUsers>
-            <!--<useIngredientsForColor>false</useIngredientsForColor>使用材料颜色-->
+            <useIngredientsForColor>false</useIngredientsForColor>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <defaultIngredientFilter>
                 <categories>
@@ -63,6 +63,7 @@
     <!--头部饰品基类-->
     <ThingDef Name="AFU_ENTHeadDecorationMakeableBase" ParentName="AFU_ENTApparelMakeableBase" Abstract="True">
         <!--储存区分类-->
+		<tradeability>Sellable</tradeability>
         <thingCategories>
             <li>AFUCategoryHeadDecoration</li>
         </thingCategories>
@@ -70,6 +71,7 @@
     <!--尾部饰品基类-->
     <ThingDef Name="AFU_ENTTailDecorationMakeableBase" ParentName="AFU_ENTApparelMakeableBase" Abstract="True">
         <!--储存区分类-->
+		<tradeability>Sellable</tradeability>
         <thingCategories>
             <li>AFUCategoriesTailDecoration</li>
         </thingCategories>

@@ -11,13 +11,13 @@
     <!--头部装饰层定义-->
     <ApparelLayerDef>
         <defName>AFUHeadDecoration</defName>
-        <label>头部装饰层</label>
+        <label>HeadDecoration</label>
         <drawOrder>401</drawOrder> <!--头盔400-->
     </ApparelLayerDef>
     <!--尾部装饰层定义-->
     <ApparelLayerDef>
         <defName>AFUTailDecoration</defName>
-        <label>尾部装饰层</label>
+        <label>TailDecoration</label>
         <drawOrder>-1</drawOrder><!--衬衫0-->
     </ApparelLayerDef>
 </Defs>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 尾部装饰 -->
+
+  <AFUENT_CatTailA.label>条纹猫尾</AFUENT_CatTailA.label>
+  <AFUENT_CatTailB.label>纯色猫尾</AFUENT_CatTailB.label>
+  <AFUENT_DeerTailA.label>小鹿尾</AFUENT_DeerTailA.label>
+  <AFUENT_DevilTailA.label>尖角恶魔尾</AFUENT_DevilTailA.label>
+  <AFUENT_DevilTailB.label>桃心恶魔尾</AFUENT_DevilTailB.label>
+  <AFUENT_FoxTailA.label>小狐尾</AFUENT_FoxTailA.label>
+  <AFUENT_FoxTailB.label>长狐尾</AFUENT_FoxTailB.label>
+  <AFUENT_FoxTailC.label>卷翘狐尾</AFUENT_FoxTailC.label>
+  <AFUENT_FoxTailE.label>三尾狐尾</AFUENT_FoxTailE.label>
+  <AFUENT_FoxTailG.label>五尾狐尾</AFUENT_FoxTailG.label>
+  <AFUENT_FoxTailI.label>七尾狐尾</AFUENT_FoxTailI.label>
+  <AFUENT_FoxTailK.label>九尾狐尾</AFUENT_FoxTailK.label>
+  <AFUENT_RabbitTailA.label>绒球兔尾</AFUENT_RabbitTailA.label>
+  <AFUENT_LizardTailA.label>光滑蜥尾</AFUENT_LizardTailA.label>
+  <AFUENT_LizardTailB.label>刺脊蜥尾</AFUENT_LizardTailB.label>
+  <AFUENT_LizardTailC.label>蟒纹蜥尾</AFUENT_LizardTailC.label>
+
+
+</LanguageData>

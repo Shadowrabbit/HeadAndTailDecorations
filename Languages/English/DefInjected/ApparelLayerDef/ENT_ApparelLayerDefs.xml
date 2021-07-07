@@ -1,14 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- 头部装饰层定义 -->
-
-  <AFUHeadDecoration.label>头部装饰层</AFUHeadDecoration.label>
-
-
+  <AFUHeadDecoration.label>head decoration</AFUHeadDecoration.label>
   <!-- 尾部装饰层定义 -->
-
-  <AFUTailDecoration.label>尾部装饰层</AFUTailDecoration.label>
-
-
+  <AFUTailDecoration.label>tail decoration</AFUTailDecoration.label>
 </LanguageData>

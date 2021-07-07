@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <packageId>SR.HeadAndTailDecorations</packageId>
-    <name>头部与尾部装饰</name>
+    <name>Head And Tail Decorations_头部与尾部装饰</name>
     <author>金兔子拉面,Shadowrabbit</author>
     <supportedVersions>
         <li>1.2</li>
@@ -14,12 +14,17 @@
             <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
         </li>
     </modDependencies>
+	<incompatibleWith>
+        <li>erdelf.HumanoidAlienRaces</li>
+		<li>SR.HeadAndTailDecorationsEasy</li>
+	</incompatibleWith>
     <loadAfter>
         <li>brrainz.harmony</li>
         <li>Ludeon.RimWorld</li>
         <li>Ludeon.RimWorld.Royalty</li>
     </loadAfter>
     <description>
-        新增32个人类可用的头部与尾部装饰和1个专用工作台。\n这些装饰位于独立装备层上，不会与其他常规装备抢占位置。\n它们没有任何实用属性，只有外观。
+        Add 32 head and tail decorations for human and 1 workbench to make these decoration.Decorations have dedicated apparel layers added by this mod and don’t have any bonus.
+		新增32个人类可用的头部与尾部装饰和1个专用工作台。这些装饰位于独立装备层上，不会与其他常规装备抢占位置。它们没有任何实用属性，只有外观。
     </description>
 </ModMetaData>

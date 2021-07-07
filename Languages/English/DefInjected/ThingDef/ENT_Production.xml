@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <AFU_TableENT.label>头尾装饰制造台</AFU_TableENT.label>
-  <AFU_TableENT.description>用于制作头部饰品和尾部饰品的工作台，小巧轻便，无需通电。</AFU_TableENT.description>
-
-
+  <AFU_TableENT.label>decoration workbench</AFU_TableENT.label>
+  <AFU_TableENT.description>A workbench for making head and tail decorations, compact and lightweight.Can work without electricity.</AFU_TableENT.description>
 </LanguageData>

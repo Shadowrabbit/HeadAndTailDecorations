@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 总装饰类别 -->
+
+  <AFUCategoryHeadDecorationTailDecoration.label>头尾装饰</AFUCategoryHeadDecorationTailDecoration.label>
+
+
+  <!-- 头部装饰类别 -->
+
+  <AFUCategoryHeadDecoration.label>头部装饰</AFUCategoryHeadDecoration.label>
+
+
+  <!-- 尾部装饰类别 -->
+
+  <AFUCategoriesTailDecoration.label>尾部装饰</AFUCategoriesTailDecoration.label>
+
+
+</LanguageData>

@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- 尾部装饰 -->
-
-  <AFUENT_CatTailA.label>条纹猫尾</AFUENT_CatTailA.label>
-  <AFUENT_CatTailB.label>纯色猫尾</AFUENT_CatTailB.label>
-  <AFUENT_DeerTailA.label>小鹿尾</AFUENT_DeerTailA.label>
-  <AFUENT_DevilTailA.label>尖角恶魔尾</AFUENT_DevilTailA.label>
-  <AFUENT_DevilTailB.label>桃心恶魔尾</AFUENT_DevilTailB.label>
-  <AFUENT_FoxTailA.label>小狐尾</AFUENT_FoxTailA.label>
-  <AFUENT_FoxTailB.label>长狐尾</AFUENT_FoxTailB.label>
-  <AFUENT_FoxTailC.label>卷翘狐尾</AFUENT_FoxTailC.label>
-  <AFUENT_RabbitTailA.label>绒球兔尾</AFUENT_RabbitTailA.label>
-  <AFUENT_LizardTailA.label>光滑蜥尾</AFUENT_LizardTailA.label>
-  <AFUENT_LizardTailB.label>刺脊蜥尾</AFUENT_LizardTailB.label>
-  <AFUENT_LizardTailC.label>蟒纹蜥尾</AFUENT_LizardTailC.label>
-
-
+  <AFUENT_CatTailA.label>cat tail(striped)</AFUENT_CatTailA.label>
+  <AFUENT_CatTailB.label>cat tail(pure color)</AFUENT_CatTailB.label>
+  <AFUENT_DeerTailA.label>deer tail</AFUENT_DeerTailA.label>
+  <AFUENT_DevilTailA.label>devil tail(pointed)</AFUENT_DevilTailA.label>
+  <AFUENT_DevilTailB.label>devil tail(heart)</AFUENT_DevilTailB.label>
+  <AFUENT_FoxTailA.label>fox tail(short)</AFUENT_FoxTailA.label>
+  <AFUENT_FoxTailB.label>fox tail(long)</AFUENT_FoxTailB.label>
+  <AFUENT_FoxTailC.label>fox tail(curled)</AFUENT_FoxTailC.label>
+  <AFUENT_FoxTailE.label>fox tail(three tail)</AFUENT_FoxTailE.label>
+  <AFUENT_FoxTailG.label>fox tail(five tail)</AFUENT_FoxTailG.label>
+  <AFUENT_FoxTailI.label>fox tail(seven tail)</AFUENT_FoxTailI.label>
+  <AFUENT_FoxTailK.label>fox tail(nine tail)</AFUENT_FoxTailK.label>
+  <AFUENT_RabbitTailA.label>rabbit tail</AFUENT_RabbitTailA.label>
+  <AFUENT_LizardTailA.label>lizard tail(smooth)</AFUENT_LizardTailA.label>
+  <AFUENT_LizardTailB.label>lizard tail(spiked)</AFUENT_LizardTailB.label>
+  <AFUENT_LizardTailC.label>lizard tail(python pattern)</AFUENT_LizardTailC.label>
 </LanguageData>

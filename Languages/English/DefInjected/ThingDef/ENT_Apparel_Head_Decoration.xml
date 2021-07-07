@@ -1,26 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <AFUENT_CatEarsA.label>圆猫耳</AFUENT_CatEarsA.label>
-  <AFUENT_CatEarsB.label>尖猫耳</AFUENT_CatEarsB.label>
-  <AFUENT_CatEarsC.label>扇形猫耳</AFUENT_CatEarsC.label>
-  <AFUENT_CatEarsD.label>耳钉猫耳</AFUENT_CatEarsD.label>
-  <AFUENT_FoxEarsA.label>翘立狐耳</AFUENT_FoxEarsA.label>
-  <AFUENT_FoxEarsB.label>下垂狐耳</AFUENT_FoxEarsB.label>
-  <AFUENT_FoxEarsC.label>短毛狐耳</AFUENT_FoxEarsC.label>
-  <AFUENT_FoxEarsD.label>左歪狐耳</AFUENT_FoxEarsD.label>
-  <AFUENT_FoxEarsE.label>右歪狐耳</AFUENT_FoxEarsE.label>
-  <AFUENT_RabbitEarsA.label>直立小兔耳</AFUENT_RabbitEarsA.label>
-  <AFUENT_RabbitEarsB.label>弯折小兔耳</AFUENT_RabbitEarsB.label>
-  <AFUENT_RabbitEarsC.label>长毛兔耳</AFUENT_RabbitEarsC.label>
-  <AFUENT_RabbitEarsD.label>短毛兔耳</AFUENT_RabbitEarsD.label>
-  <AFUENT_DeerHornA.label>大鹿角</AFUENT_DeerHornA.label>
-  <AFUENT_DeerHornB.label>鹿耳大鹿角</AFUENT_DeerHornB.label>
-  <AFUENT_DeerHornC.label>小鹿角</AFUENT_DeerHornC.label>
-  <AFUENT_DeerHornD.label>鹿耳小鹿角</AFUENT_DeerHornD.label>
-  <AFUENT_DevilHornA.label>恶魔双角</AFUENT_DevilHornA.label>
-  <AFUENT_DevilHornB.label>恶魔独角</AFUENT_DevilHornB.label>
-  <AFUENT_DevilHornC.label>尖刺角</AFUENT_DevilHornC.label>
-
-
+  <AFUENT_CatEarsA.label>cat ears(round)</AFUENT_CatEarsA.label>
+  <AFUENT_CatEarsB.label>cat ears(pointed)</AFUENT_CatEarsB.label>
+  <AFUENT_CatEarsC.label>cat ears(fan-shaped)</AFUENT_CatEarsC.label>
+  <AFUENT_CatEarsD.label>cat ears(studs)</AFUENT_CatEarsD.label>
+  <AFUENT_FoxEarsA.label>fox ears(erect)</AFUENT_FoxEarsA.label>
+  <AFUENT_FoxEarsB.label>fox ears(lop)</AFUENT_FoxEarsB.label>
+  <AFUENT_FoxEarsC.label>fox ears(short hair)</AFUENT_FoxEarsC.label>
+  <AFUENT_FoxEarsD.label>fox ears(left lop)</AFUENT_FoxEarsD.label>
+  <AFUENT_FoxEarsE.label>fox ears(right lop)</AFUENT_FoxEarsE.label>
+  <AFUENT_RabbitEarsA.label>rabbit ears</AFUENT_RabbitEarsA.label>
+  <AFUENT_RabbitEarsB.label>rabbit ears(folded)</AFUENT_RabbitEarsB.label>
+  <AFUENT_RabbitEarsC.label>rabbit ears(long hair)</AFUENT_RabbitEarsC.label>
+  <AFUENT_RabbitEarsD.label>rabbit ears(short hair)</AFUENT_RabbitEarsD.label>
+  <AFUENT_DeerHornA.label>big antlers</AFUENT_DeerHornA.label>
+  <AFUENT_DeerHornB.label>big antlers with ears</AFUENT_DeerHornB.label>
+  <AFUENT_DeerHornC.label>little antlers</AFUENT_DeerHornC.label>
+  <AFUENT_DeerHornD.label>little antlers with ears</AFUENT_DeerHornD.label>
+  <AFUENT_DevilHornA.label>devil horns</AFUENT_DevilHornA.label>
+  <AFUENT_DevilHornB.label>devil single horn</AFUENT_DevilHornB.label>
+  <AFUENT_DevilHornC.label>one side devil horns</AFUENT_DevilHornC.label>
+  <AFUENT_DevilHornD.label>double side devil horns</AFUENT_DevilHornD.label>
 </LanguageData>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <WorkGiverDef>
-    <defName>DoBillsMakeApparel</defName>
-    <label>制作装饰</label><!--名字-->
+    <defName>AFUENT_DoBillsMakeApparel</defName>
+    <label>make apparel</label><!--名字-->
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Tailoring</workType><!--工作类型-->
     <priorityInType>100</priorityInType><!--同类工作优先级-->
     <fixedBillGiverDefs><!--工作台-->
       <li>AFU_TableENT</li>
     </fixedBillGiverDefs>
-    <verb>制作</verb><!--文本-->
-    <gerund>制作于</gerund><!--文本-->
+    <verb>make</verb><!--文本-->
+    <gerund>Making</gerund><!--文本-->
     <requiredCapacities><!--需要的属性-->
       <li>Manipulation</li>
     </requiredCapacities>

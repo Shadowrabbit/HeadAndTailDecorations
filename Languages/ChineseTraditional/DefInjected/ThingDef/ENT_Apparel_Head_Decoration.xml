@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AFUENT_CatEarsA.label>圓貓耳</AFUENT_CatEarsA.label>
+  <AFUENT_CatEarsB.label>尖猫耳</AFUENT_CatEarsB.label>
+  <AFUENT_CatEarsC.label>扇形猫耳</AFUENT_CatEarsC.label>
+  <AFUENT_CatEarsD.label>耳釘貓耳</AFUENT_CatEarsD.label>
+  <AFUENT_FoxEarsA.label>翹立狐耳</AFUENT_FoxEarsA.label>
+  <AFUENT_FoxEarsB.label>下垂狐耳</AFUENT_FoxEarsB.label>
+  <AFUENT_FoxEarsC.label>短毛狐耳</AFUENT_FoxEarsC.label>
+  <AFUENT_FoxEarsD.label>左歪狐耳</AFUENT_FoxEarsD.label>
+  <AFUENT_FoxEarsE.label>右歪狐耳</AFUENT_FoxEarsE.label>
+  <AFUENT_RabbitEarsA.label>直立小兔耳</AFUENT_RabbitEarsA.label>
+  <AFUENT_RabbitEarsB.label>彎折小兔耳</AFUENT_RabbitEarsB.label>
+  <AFUENT_RabbitEarsC.label>長毛兔耳</AFUENT_RabbitEarsC.label>
+  <AFUENT_RabbitEarsD.label>短毛兔耳</AFUENT_RabbitEarsD.label>
+  <AFUENT_DeerHornA.label>大鹿角</AFUENT_DeerHornA.label>
+  <AFUENT_DeerHornB.label>鹿耳大鹿角</AFUENT_DeerHornB.label>
+  <AFUENT_DeerHornC.label>小鹿角</AFUENT_DeerHornC.label>
+  <AFUENT_DeerHornD.label>鹿耳小鹿角</AFUENT_DeerHornD.label>
+  <AFUENT_DevilHornA.label>惡魔雙角</AFUENT_DevilHornA.label>
+  <AFUENT_DevilHornB.label>惡魔獨角</AFUENT_DevilHornB.label>
+  <AFUENT_DevilHornC.label>惡魔刺角</AFUENT_DevilHornC.label>
+  <AFUENT_DevilHornD.label>惡魔雙刺角</AFUENT_DevilHornD.label>
+
+</LanguageData>
