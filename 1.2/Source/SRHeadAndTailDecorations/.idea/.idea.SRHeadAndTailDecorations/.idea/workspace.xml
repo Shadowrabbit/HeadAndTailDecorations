@@ -5,41 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c71265d-b475-4237-ba5f-86c5a9ae92b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Assemblies/SRHeadAndTailDecorations.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Defs/Misc/ApparelLayerDefs/ENT_ApparelLayerDefs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Defs/ThingCategoryDefs/ENT_ThingCategories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Defs/ThingDefs_Buildings/ENT_Production.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Defs/ThingDefs_Misc/ENT_Apparel_Head_Decoration.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Defs/ThingDefs_Misc/ENT_Apparel_Tail_Decoration.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Defs/ThingDefs_Misc/ENT_Various.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Defs/WorkGiverDefs/ENT_WorkGivers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/.idea/.idea.SRHeadAndTailDecorations/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/Def/ApparelLayerDefOf.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/Patch/ApparelGraphicRecordGetterPatch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/Patch/ApparelLayerDefPatch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/Patch/PatchMain.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/Patch/PawnGraphicSetPatch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/Patch/PawnRendererPatch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/SRHeadAndTailDecorations.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/SRHeadAndTailDecorations.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/SRHeadAndTailDecorations.sln.DotSettings.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/bin/Debug/SRHeadAndTailDecorations.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/bin/Debug/SRHeadAndTailDecorations.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/obj/Debug/SRHeadAndTailDecorations.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/obj/Debug/SRHeadAndTailDecorations.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/obj/Debug/SRHeadAndTailDecorations.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/obj/Debug/SRHeadAndTailDecorations.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Source/SRHeadAndTailDecorations/obj/Debug/SRHeadAndTailDecorations.pdb" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.3/Source/SRHeadAndTailDecorations/obj/Debug/SRHeadAndTailDecorations.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Assemblies/SRHeadAndTailDecorations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Assemblies/SRHeadAndTailDecorations.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Defs/Misc/ApparelLayerDefs/ENT_ApparelLayerDefs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Defs/ThingCategoryDefs/ENT_ThingCategories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Defs/ThingDefs_Buildings/ENT_Production.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Defs/ThingDefs_Misc/ENT_Apparel_Head_Decoration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Defs/ThingDefs_Misc/ENT_Apparel_Tail_Decoration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Defs/ThingDefs_Misc/ENT_Various.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Defs/WorkGiverDefs/ENT_WorkGivers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Source/SRHeadAndTailDecorations/Def/ApparelLayerDefOf.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Source/SRHeadAndTailDecorations/Lib/0Harmony.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Source/SRHeadAndTailDecorations/Lib/Assembly-CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Source/SRHeadAndTailDecorations/Lib/HarmonyMod.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Source/SRHeadAndTailDecorations/Lib/UnityEngine.CoreModule.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Source/SRHeadAndTailDecorations/Patch/ApparelGraphicRecordGetterPatch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Source/SRHeadAndTailDecorations/Patch/ApparelLayerDefPatch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Source/SRHeadAndTailDecorations/Patch/PatchMain.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Source/SRHeadAndTailDecorations/Patch/PawnGraphicSetPatch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Source/SRHeadAndTailDecorations/Patch/PawnRendererPatch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Source/SRHeadAndTailDecorations/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Source/SRHeadAndTailDecorations/SRHeadAndTailDecorations.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Source/SRHeadAndTailDecorations/SRHeadAndTailDecorations.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../1.4/Source/SRHeadAndTailDecorations/SRHeadAndTailDecorations.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SRHeadAndTailDecorations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SRHeadAndTailDecorations/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patch/PawnRendererPatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patch/PawnRendererPatch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1.3/Source/SRHeadAndTailDecorations/Patch/PawnRendererPatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1.3/Source/SRHeadAndTailDecorations/Patch/PawnRendererPatch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../About/About.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../About/About.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +51,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/20181E2D-5520-4880-A56A-9120EF04A53D/ae/f9b20ef8/Traverse.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/../../Defs/ENT_Belt.xml" />
@@ -73,7 +70,7 @@
       <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Head_Decoration.xml" />
       <option value="$PROJECT_DIR$/../../About/About.xml" />
       <option value="$PROJECT_DIR$/../../Defs/Misc/ApparelLayerDefs/ENT_ApparelLayerDefs.xml" />
-      <option value="$USER_HOME$/Desktop/2206714635/Defs/ThingDefs_Misc/Apparel_Packs.xml" />
+      <option value="$PROJECT_DIR$/../../../../2206714635/Defs/ThingDefs_Misc/Apparel_Packs.xml" />
       <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Various.xml" />
       <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Misc/ENT_Apparel_Tail_Decoration.xml" />
       <option value="$PROJECT_DIR$/../../Defs/ThingDefs_Buildings/ENT_Production.xml" />
@@ -139,6 +136,9 @@
       <workItem from="1612326720942" duration="329000" />
       <workItem from="1625640794732" duration="1717000" />
       <workItem from="1625650602764" duration="156000" />
+      <workItem from="1666426395580" duration="70000" />
+      <workItem from="1666427237071" duration="359000" />
+      <workItem from="1666428576365" duration="87000" />
     </task>
     <servers />
   </component>

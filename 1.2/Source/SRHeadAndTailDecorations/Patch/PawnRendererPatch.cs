@@ -113,8 +113,7 @@ namespace SR.HeadAndTailDecorations
                                 if (!apparelGraphics[index].sourceApparel.def.apparel.hatRenderedFrontOfFace)
                                 {
                                     flag = true;
-                                    var mat2 = Traverse.Create(__instance).Method(
-                                            "OverrideMaterialIfNeeded_NewTemp",
+                                    var mat2 = Traverse.Create(__instance).Method("OverrideMaterialIfNeeded_NewTemp",
                                             apparelGraphics[index].graphic.MatAt(bodyFacing), pawn, portrait)
                                         .GetValue<Material>();
                                     GenDraw.DrawMeshNowOrLater(mesh2, loc1, quaternion, mat2, portrait);

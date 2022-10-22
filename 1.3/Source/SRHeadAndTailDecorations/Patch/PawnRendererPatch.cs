@@ -21,7 +21,8 @@ namespace SR.ModRimWorld.HeadAndTailDecorations
         [HarmonyPatch("DrawHeadHair")]
         [HarmonyPatch(new[]
         {
-            typeof(Vector3), typeof(Vector3), typeof(float), typeof(Rot4), typeof(Rot4), typeof(RotDrawMode), typeof(PawnRenderFlags)
+            typeof(Vector3), typeof(Vector3), typeof(float), typeof(Rot4), typeof(Rot4), typeof(RotDrawMode),
+            typeof(PawnRenderFlags)
         })]
         [UsedImplicitly]
         private static class DrawHeadHairPatch
@@ -47,15 +48,19 @@ namespace SR.ModRimWorld.HeadAndTailDecorations
                 var flag1 = false;
                 var flag2 = bodyFacing == Rot4.North || pawn.style == null ||
                             pawn.style.beardDef == BeardDefOf.NoBeard;
-                if (flags.FlagSet(PawnRenderFlags.Headgear) && (!flags.FlagSet(PawnRenderFlags.Portrait) || !Prefs.HatsOnlyOnMap ||
-                                                                flags.FlagSet(PawnRenderFlags.StylingStation)))
+                if (flags.FlagSet(PawnRenderFlags.Headgear) &&
+                    (!flags.FlagSet(PawnRenderFlags.Portrait) || !Prefs.HatsOnlyOnMap ||
+                     flags.FlagSet(PawnRenderFlags.StylingStation)))
                 {
                     var mesh = __instance.graphics.HairMeshSet.MeshAt(headFacing);
                     for (var index = 0; index < apparelGraphics.Count; ++index)
                     {
-                        if (apparelGraphics[index].sourceApparel.def.apparel.LastLayer != RimWorld.ApparelLayerDefOf.Overhead
-                            && apparelGraphics[index].sourceApparel.def.apparel.LastLayer != ApparelLayerDefOf.AFUHeadDecoration) continue;
-                        if (apparelGraphics[index].sourceApparel.def.apparel.bodyPartGroups.Contains(BodyPartGroupDefOf.FullHead))
+                        if (apparelGraphics[index].sourceApparel.def.apparel.LastLayer !=
+                            RimWorld.ApparelLayerDefOf.Overhead
+                            && apparelGraphics[index].sourceApparel.def.apparel.LastLayer !=
+                            ApparelLayerDefOf.AFUHeadDecoration) continue;
+                        if (apparelGraphics[index].sourceApparel.def.apparel.bodyPartGroups
+                            .Contains(BodyPartGroupDefOf.FullHead))
                             flag2 = true;
                         if (!apparelGraphics[index].sourceApparel.def.apparel.hatRenderedFrontOfFace)
                         {
@@ -65,7 +70,8 @@ namespace SR.ModRimWorld.HeadAndTailDecorations
                                 ? original
                                 : Traverse.Create(__instance).Method("OverrideMaterialIfNeeded", original, pawn,
                                     flags.FlagSet(PawnRenderFlags.Portrait)).GetValue<Material>();
-                            GenDraw.DrawMeshNowOrLater(mesh, vector3, quat, mat, flags.FlagSet(PawnRenderFlags.DrawNow));
+                            GenDraw.DrawMeshNowOrLater(mesh, vector3, quat, mat,
+                                flags.FlagSet(PawnRenderFlags.DrawNow));
                         }
                         else
                         {
@@ -87,19 +93,24 @@ namespace SR.ModRimWorld.HeadAndTailDecorations
                         }
                     }
                 }
-                if (ModsConfig.IdeologyActive && __instance.graphics.faceTattooGraphic != null && bodyDrawType != RotDrawMode.Dessicated &&
+
+                if (ModsConfig.IdeologyActive && __instance.graphics.faceTattooGraphic != null &&
+                    bodyDrawType != RotDrawMode.Dessicated &&
                     (bodyFacing != Rot4.North || pawn.style.FaceTattoo.visibleNorth))
                 {
                     var loc = vector3;
                     loc.y -= 0.001447876f;
                     GenDraw.DrawMeshNowOrLater(__instance.graphics.HairMeshSet.MeshAt(headFacing), loc, quat,
-                        __instance.graphics.faceTattooGraphic.MatAt(headFacing), flags.FlagSet(PawnRenderFlags.DrawNow));
+                        __instance.graphics.faceTattooGraphic.MatAt(headFacing),
+                        flags.FlagSet(PawnRenderFlags.DrawNow));
                 }
+
                 if (!flag2 && bodyDrawType != RotDrawMode.Dessicated && !flags.FlagSet(PawnRenderFlags.HeadStump) &&
                     pawn.style?.beardDef != null)
                 {
                     var loc =
-                        Traverse.Create(__instance).Method("OffsetBeardLocationForCrownType", pawn.story.crownType, headFacing, vector3)
+                        Traverse.Create(__instance).Method("OffsetBeardLocationForCrownType", pawn.story.crownType,
+                                headFacing, vector3)
                             .GetValue<Vector3>() + pawn.style.beardDef.GetOffset(pawn.story.crownType, headFacing);
                     var mesh = __instance.graphics.HairMeshSet.MeshAt(headFacing);
                     var mat = __instance.graphics.BeardMatAt(headFacing, flags.FlagSet(PawnRenderFlags.Portrait),
@@ -107,6 +118,7 @@ namespace SR.ModRimWorld.HeadAndTailDecorations
                     if (mat != null)
                         GenDraw.DrawMeshNowOrLater(mesh, loc, quat, mat, flags.FlagSet(PawnRenderFlags.DrawNow));
                 }
+
                 if (flag1 || bodyDrawType == RotDrawMode.Dessicated || flags.FlagSet(PawnRenderFlags.HeadStump))
                     return false;
                 var mesh1 = __instance.graphics.HairMeshSet.MeshAt(headFacing);
